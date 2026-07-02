@@ -8,41 +8,29 @@ AI skills distilled from expert video content, installable in any AI coding agen
 
 ```bash
 # Install a specific skill
-npx skills add TDH-Labs/i-know-kung-fu@claude-cowork-workflows
+npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 
-# Browse all available skills
+# Browse all available skills  
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills
+## Available Skills (8 total)
 
-| Skill | Description | Difficulty |
-|-------|-------------|------------|
-| [claude-cowork-workflows](./skills/claude-cowork-workflows/SKILL.md) | Best practices for co-working with Claude to accelerate programming and system design | Beginner |
-| [improve-codebase-architecture](./skills/improve-codebase-architecture/SKILL.md) | Techniques for refactoring and improving large codebase architecture with AI | Intermediate |
-
-## How it works
-
-Each skill is a `SKILL.md` file with YAML frontmatter that describes:
-- **name** – unique identifier
-- **description** – what the skill does and when agents should activate it
-- **tags** – searchable keywords
-
-Skills are automatically discovered and activated by AI agents based on the description and the user's current task. Think of them as on-demand expert knowledge modules — the agent reads the relevant skill and gains that expertise for the task at hand.
+| Skill | Description |
+|-------|-------------|
+| [AI Agent Operating System Management](./skills/AI Agent Operating System Management/SKILL.md) | This skill outlines the essential components and workflows for managing |
+| [Agentic Experimentation for High-Stakes ML Systems](./skills/Agentic Experimentation for High-Stakes ML Systems/SKILL.md) | Skill for AI agents to safely and efficiently experiment with feature |
+| [Automate Tasks with Genspark Claw](./skills/Automate Tasks with Genspark Claw/SKILL.md) | This skill enables you to automate tasks using Genspark Claw, an AI tool |
+| [Automating Email Responses and Meeting Scheduling with OpenClaw](./skills/Automating Email Responses and Meeting Scheduling with OpenClaw/SKILL.md) | This skill enables an AI agent to automate email responses and meeting |
+| [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets in Claude |
+| [Handoff Skill](./skills/Handoff Skill/SKILL.md) | The Handoff Skill enables an AI agent to compact the current conversation |
+| [claude-cowork-workflows](./skills/claude-cowork-workflows/SKILL.md) | Best practices for co-working with Claude (Desktop, Projects, Artifacts) |
+| [improve-codebase-architecture](./skills/improve-codebase-architecture/SKILL.md) | How to refactor, format, and structure a codebase that has been cluttered |
 
 ## Supported Agents
 
-These skills work with any agent that supports the [open agent skills ecosystem](https://skills.sh), including:
-
-- Antigravity / AGY
-- Claude Code / Cursor / Windsurf / Copilot
-- Gemini CLI / OpenCode
-- And [many more](https://skills.sh)
-
-## Adding skills
-
-Skills are generated automatically from curated expert video content using an AI pipeline. New skills are added regularly as more content is processed.
+Works with Antigravity, Claude Code, Cursor, Windsurf, Copilot, Gemini CLI, and [many more](https://skills.sh).
 
 ## License
 
-MIT — use these skills freely in your own agents and projects.
+MIT

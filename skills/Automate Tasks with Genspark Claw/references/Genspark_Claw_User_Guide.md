@@ -1,0 +1,1 @@
+Detailed instructions on using Genspark Claw, including setup, task assignment, and scheduling.
