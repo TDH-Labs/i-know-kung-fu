@@ -1,97 +1,83 @@
 ---
-description: This skill enables an AI agent to automate email responses and meeting
-  scheduling using OpenClaw, a digital assistant platform. The agent will learn to
-  set up OpenClaw on a VPS, configure integrations with Gmail, Google Drive, and Google
-  Calendar, and execute workflows for responding to sponsorship emails and scheduling
-  meetings.
+description: A comprehensive skill for setting up OpenClaw as a digital assistant
+  to automate email responses and meeting scheduling, including integration with Gmail,
+  Google Drive, and Google Calendar.
 name: Automating Email Responses and Meeting Scheduling with OpenClaw
 tags:
 - OpenClaw
-- automation
-- email
+- email automation
 - meeting scheduling
-- VPS
-- Gmail
-- Google Drive
+- Gmail integration
 - Google Calendar
+- digital assistant
 ---
 
 # Automating Email Responses and Meeting Scheduling with OpenClaw
 
-> This skill enables an AI agent to automate email responses and meeting scheduling using OpenClaw, a digital assistant platform. The agent will learn to set up OpenClaw on a VPS, configure integrations with Gmail, Google Drive, and Google Calendar, and execute workflows for responding to sponsorship emails and scheduling meetings.
+> A comprehensive skill for setting up OpenClaw as a digital assistant to automate email responses and meeting scheduling, including integration with Gmail, Google Drive, and Google Calendar.
 
-### Overview
-OpenClaw is a digital assistant that can perform tasks end-to-end, such as reading and responding to emails, scheduling meetings, and connecting to various tools. This skill focuses on setting up OpenClaw on a Virtual Private Server (VPS), configuring it to interact with Gmail, Google Drive, and Google Calendar, and automating workflows for responding to sponsorship emails and scheduling meetings.
+## Overview
+OpenClaw is a digital assistant that automates tasks like email responses and meeting scheduling. This skill covers setting up OpenClaw on a VPS, integrating it with Gmail, Google Drive, and Google Calendar, and creating autonomous workflows. For core concepts, see [Core Concepts](references/core_concepts.md).
 
-### Step-by-Step Workflow
-1. **Set Up OpenClaw on a VPS**
-   - Choose a VPS provider (e.g., Hostinger).
-   - Select a plan (e.g., KVM 2) and apply any available discounts.
-   - Complete the setup process by providing necessary details and payment information.
+## Step-by-Step Workflow
+1. **Set Up OpenClaw on a VPS**:
+   - Choose a VPS provider (e.g., Hostinger) and deploy OpenClaw using the one-click setup.
+   - Configure initial settings, including the assistant's personality and communication channels (Telegram/WhatsApp).
 
-2. **Configure OpenClaw**
-   - Access the OpenClaw interface and complete the initial setup by answering bootstrap questions (e.g., defining the agent's personality).
-   - Configure integrations with Telegram by creating a bot via BotFather and linking it to OpenClaw.
+2. **Integrate Gmail**:
+   - Enable two-factor authentication and generate an app password.
+   - Provide the email and password to OpenClaw for authentication.
 
-3. **Integrate Gmail**
-   - Enable two-factor authentication on your Google account.
-   - Generate an app password for OpenClaw.
-   - Connect OpenClaw to Gmail using the app password.
+3. **Integrate Google Drive**:
+   - Create an OAuth client ID and download the JSON file.
+   - Provide the JSON file to OpenClaw and authorize access.
 
-4. **Integrate Google Drive**
-   - Create an OAuth client ID for Google Drive.
-   - Download the JSON file and provide it to OpenClaw.
-   - Authorize OpenClaw to access Google Drive.
+4. **Integrate Google Calendar**:
+   - Enable the Google Calendar API and authenticate OpenClaw.
+   - Test by scheduling a meeting via Telegram.
 
-5. **Automate Email Responses**
-   - Define a workflow in OpenClaw to read sponsorship emails, decline offers from conflicting companies, and send media kits to interested parties.
-   - Schedule this workflow to run daily using cron jobs.
+5. **Create Autonomous Workflows**:
+   - Set up cron jobs for daily email checks and responses.
+   - Use natural language commands to automate tasks (e.g., "Schedule a meeting with Karan tomorrow").
 
-6. **Integrate Google Calendar**
-   - Enable the Google Calendar API.
-   - Authenticate OpenClaw to access Google Calendar.
+For detailed steps, refer to the [Practical Guide](references/practical_guide.md).
 
-7. **Automate Meeting Scheduling**
-   - Use Telegram to command OpenClaw to schedule meetings.
-   - Specify meeting details (e.g., participant, time slot, agenda).
-   - Verify that the meeting is correctly scheduled in Google Calendar.
+## Code Snippets and Prompt Templates
+```plaintext
+Read the emails today for sponsorship offers from EdTech companies.
+```
+```plaintext
+Schedule a meeting with Karandeep tomorrow for a discussion on the Boston project. Pick any 30-minute time between 9:00 to 12:00 noon.
+```
+More examples can be found in [Code Examples](references/code_examples.md).
 
-### Code/Prompt Snippets
-- **Telegram Bot Setup**
-  ```
-  /newbot
-  ClawBuddy
-  clawbuddy_bot
-  ```
-- **Email Automation Prompt**
-  ```
-  Read the emails today for sponsorship offers from EdTech company, decline for any other offer, send them a media kit.
-  ```
-- **Meeting Scheduling Prompt**
-  ```
-  Schedule a meeting with Karandeep tomorrow for a discussion on Boston project. Pick any 30-minute time between 9:00 to 12:00 noon.
-  ```
+## Best Practices and Pitfalls
+- **Best Practices**:
+  - Use a VPS for easier setup and maintenance.
+  - Interact with OpenClaw using natural language.
+  - Monitor tool calls to understand and troubleshoot workflows.
 
-### Best Practices
-- Use a VPS for easier setup and maintenance.
-- Regularly update and monitor cron jobs to ensure workflows run smoothly.
-- Test integrations thoroughly before relying on them for critical tasks.
+- **Pitfalls**:
+  - Avoid local setup due to complexity and security risks.
+  - Double-check authentication settings to prevent errors.
+  - Handle broken links during integration by pasting them back to OpenClaw.
 
-### Common Pitfalls
-- Failing to enable two-factor authentication can prevent Gmail integration.
-- Incorrectly configuring OAuth client IDs can lead to authentication failures.
-- Overlooking time zone differences when scheduling meetings.
+For more details, see [Common Pitfalls](references/common_pitfalls.md).
 
-### Validation Steps
-- Verify that OpenClaw can read and respond to emails correctly.
-- Check that media kits are attached and sent as expected.
-- Confirm that meetings are scheduled accurately in Google Calendar.
+## Validation and Testing
+1. **Test Email Automation**:
+   - Send a test sponsorship email and verify OpenClaw's response.
+   - Check the sent folder to ensure the response and attachments are correct.
 
-### Supporting Reference Docs
-- [Hostinger VPS Setup Guide](https://www.hostinger.com/tutorials/vps-setup)
-- [Google App Passwords Documentation](https://support.google.com/accounts/answer/185833)
-- [Google Calendar API Documentation](https://developers.google.com/calendar/api)
-- [Telegram BotFather Guide](https://core.telegram.org/bots#botfather)
+2. **Test Meeting Scheduling**:
+   - Schedule a test meeting via Telegram and verify it appears in Google Calendar.
+   - Confirm the meeting details (time, participants) are accurate.
+
+3. **Test Cron Jobs**:
+   - Verify the cron job is set up correctly and runs at the specified time.
+   - Check logs to ensure the job executes as expected.
+
+By following these steps, you can ensure OpenClaw is functioning correctly and efficiently automating your tasks.
 
 ## 📺 Source Videos
 
@@ -101,6 +87,6 @@ OpenClaw is a digital assistant that can perform tasks end-to-end, such as readi
 
 ## Prerequisites
 
-- basic understanding of cloud servers
+- basic understanding of VPS
 - familiarity with Gmail and Google Calendar
-- basic knowledge of Telegram
+- basic command line knowledge
