@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (30 total)
+## Available Skills (31 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -35,6 +35,7 @@ npx skills find --owner TDH-Labs
 | [Automating Tasks with OpenClaw](./skills/Automating Tasks with OpenClaw/SKILL.md) | This skill enables you to automate real-world tasks using OpenClaw, such |
 | [Building Live Artifacts with Claude](./skills/Building Live Artifacts with Claude/SKILL.md) | This skill enables you to create personalized dashboards with live data |
 | [Claude Co-Work Skill Development](./skills/Claude Co-Work Skill Development/SKILL.md) | A comprehensive skill for developing, testing, and optimizing AI agent |
+| [Claude Connectors Integration](./skills/Claude Connectors Integration/SKILL.md) | Skill for connecting Claude AI to external services like Gmail, Google |
 | [Claude Cowork Workflows](./skills/Claude Cowork Workflows/SKILL.md) | A comprehensive skill for setting up and optimizing Claude Cowork workflows, |
 | [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets (presentations, |
 | [Claude Routine Automation](./skills/Claude Routine Automation/SKILL.md) | Automate recurring tasks and event-triggered workflows using Claude's |
