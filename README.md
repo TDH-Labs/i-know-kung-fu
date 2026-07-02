@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (31 total)
+## Available Skills (32 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -49,6 +49,7 @@ npx skills find --owner TDH-Labs
 | [Production-Grade RAG System Implementation](./skills/Production-Grade RAG System Implementation/SKILL.md) | A comprehensive skill for implementing and maintaining Retrieval-Augmented |
 | [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A comprehensive skill for determining when to use Retrieval-Augmented |
 | [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to integrate vector databases into generative AI systems for |
+| [tying_a_bowline_knot](./skills/tying_a_bowline_knot/SKILL.md) | A comprehensive skill for tying a bowline knot, a secure loop knot commonly |
 
 ## Supported Agents
 
