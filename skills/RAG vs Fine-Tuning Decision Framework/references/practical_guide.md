@@ -1,38 +1,18 @@
-# Practical Implementation Guide
+# Practical Guide
 
-## RAG Implementation Checklist
-1. Document Preparation:
-   - Clean and chunk source materials
-   - Handle sensitive data appropriately
-   - Establish update protocols
+## Real-World Scenarios
 
-2. Retrieval System:
-   - Select embedding model (e.g., OpenAI text-embedding-ada-002)
-   - Choose vector database (Pinecone, Weaviate, etc.)
-   - Set retrieval parameters (top-k, score thresholds)
+### RAG Scenario
 
-3. Generation Layer:
-   - Design context injection templates
-   - Implement citation mechanisms
-   - Build fallback procedures
+Imagine an internal company chatbot. Employees ask questions like, "What is our leave policy? How does the expense approval process work?" This information already exists in documents and policies. Instead of training the model on company data, the system retrieves the relevant documents and passes them to the model. When policies change, you update the documents, not the model.
 
-## Fine-Tuning Preparation
-1. Behavior Specification:
-   - Document required response patterns
-   - Create style guides with examples
-   - Define unacceptable outputs
+### Fine-Tuning Scenario
 
-2. Dataset Creation:
-   - Generate example Q&A pairs
-   - Ensure coverage of edge cases
-   - Maintain validation split
+Imagine a customer support assistant. The company wants responses to follow a specific tone, structure, and style. For example, always start with empathy, use approved phrases, and follow a fixed response format. Prompts alone may not be enough to enforce this consistently. In this case, fine-tuning helps the model learn the desired behavior.
 
-3. Training Setup:
-   - Select base model size
-   - Choose hyperparameters
-   - Plan for version control
+## Implementation Tips
 
-## Hybrid Approach Considerations
-- Separate knowledge updates from behavior updates
-- Monitor for conflicting signals between systems
-- Establish clear ownership boundaries
+- **RAG**: Ensure your retrieval system is efficient and accurate. Use vector databases for better performance.
+- **Fine-Tuning**: Start with a pre-trained model and fine-tune it on a smaller, task-specific dataset. Monitor the model's performance closely.
+
+For code snippets and detailed implementation steps, refer to [Code Examples](references/code_examples.md).

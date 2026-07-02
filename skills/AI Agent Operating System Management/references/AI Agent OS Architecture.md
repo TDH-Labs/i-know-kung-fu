@@ -1,1 +1,0 @@
-Detailed architecture of an AI Agent Operating System, including layers and components.

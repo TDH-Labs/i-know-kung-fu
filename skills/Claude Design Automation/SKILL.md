@@ -1,10 +1,10 @@
 ---
-description: A systematic approach to generating brand-aligned design assets in Claude
-  Design by pre-establishing design systems, templates, and copy through skills to
-  minimize iterations and token usage.
+description: A systematic approach to generating brand-aligned design assets (presentations,
+  social media images, websites) in Claude Design with minimal iterations by pre-establishing
+  design systems, templates, and using skills for copy generation.
 name: Claude Design Automation
 tags:
-- claude design
+- claude
 - design automation
 - brand alignment
 - templates
@@ -13,104 +13,115 @@ tags:
 
 # Claude Design Automation
 
-> A systematic approach to generating brand-aligned design assets in Claude Design by pre-establishing design systems, templates, and copy through skills to minimize iterations and token usage.
+> A systematic approach to generating brand-aligned design assets (presentations, social media images, websites) in Claude Design with minimal iterations by pre-establishing design systems, templates, and using skills for copy generation.
 
 ## Overview
-This skill enables efficient generation of brand-consistent design assets in Claude Design by implementing a 3-layer preparation system:
-1. Design Systems (visual identity)
-2. Templates (layouts/structures)
-3. Skills (copy/template selection)
+Claude Design becomes exponentially more effective when you pre-establish:
+1. **Design Systems** ([reference](references/design_systems.md))
+2. **Templates** ([reference](references/template_creation.md))
+3. **Skills** ([reference](references/skill_integration.md))
 
-Core principle: 90% of the design should be pre-established before generation to minimize iterations.
+This creates a 90% complete first draft with minimal iterations.
 
 ## Step-by-Step Workflow
-
-1. **Establish Design System**
-   - Install Design System Creator skill
-   - Create a folder for system assets
-   - Run skill with: "Use the Design System Creator skill"
-   - Provide website URLs or design inspiration
-   - Let skill scrape and organize assets
-   - Upload final folder to Claude Design
+1. **Establish Design Foundation**
+   - Use the Design System Creator skill
+   - Gather existing brand assets
+   - Upload to Claude Design System tab
 
 2. **Create Templates**
    - For each use case (slides, social, etc.):
-     a. Collect 5-10 layout examples
-     b. Prompt: "Recreate these layouts in HTML using our design system. Use placeholder text like [HEADLINE] and [BODY COPY]."
-     c. Refine over 2-3 iterations
-     d. Save as template via Share > Duplicate as Template
+     - Collect 10-15 layout examples
+     - Have Claude recreate in HTML
+     - Save as template
 
-3. **Build Skills for Copy Generation**
-   - Install Design Template Skill Creator
-   - Export template as PDF
-   - Run skill with template and instructions:
-     "Create a skill that:
-     1. Selects appropriate templates based on content type
-     2. Generates copy in our brand voice
-     3. Outputs Claude Design-ready prompts"
-   - Test skill with sample briefs
+3. **Build Skills**
+   - For each template type:
+     - Create a matching skill
+     - Train with 5-10 copy examples
+     - Connect to template library
 
-4. **Generate Assets**
-   - Invoke your copy skill with content brief
-   - Copy the output prompt
-   - In Claude Design:
-     a. Start new project from template
-     b. Select design system
-     c. Paste the prompt
-     d. Make final tweaks using edit tools
+4. **Production Flow**
+   ```markdown
+   1. Invoke appropriate skill
+   2. Input: [Content brief/outline]
+   3. Skill outputs:
+      - Template selection
+      - Generated copy
+      - Complete Claude Design prompt
+   4. Paste prompt into new Claude Design project
+   5. Make final tweaks (5-10 min)
+   ```
 
 ## Code/Prompt Templates
+**Design System Setup Prompt**
+```
+Create comprehensive design system for [Brand Name] including:
+1. Color palette (primary/secondary)
+2. Typography hierarchy
+3. UI components (buttons, cards)
+4. Spacing system (8px base)
 
-**Design System Prompt**
-"Create a comprehensive design system including:
-- Color palette: [HEX CODES]
-- Font hierarchy: [PRIMARY/SECONDARY FONTS]
-- UI components: buttons, cards, etc.
-- Logo usage guidelines
-- Image style parameters
-Base it on these examples: [LINKS/ATTACHMENTS]"
+Reference materials: [attach brand assets]
+```
 
 **Template Creation Prompt**
-"Convert these layout examples into a Claude Design template:
-1. Maintain the structure of [EXAMPLE 1] for section headers
-2. Use the card grid from [EXAMPLE 2] for feature displays
-3. Apply our design system colors and fonts
-4. Use placeholder text like [HEADLINE] and [BODY COPY]"
+```
+Recreate these [number] layout examples in HTML using our design system.
+Focus on:
+- Responsive structure
+- Accessibility
+- Brand alignment
 
-**Skill Invocation Example**
-"Use our [SKILL NAME] to create a LinkedIn carousel about [TOPIC]. The carousel should:
-- Have 6-8 slides
-- Use stats from [SOURCE]
-- Include 2 customer testimonials
-- End with a CTA to [ACTION]"
+Examples: [attach screenshots]
+```
 
 ## Best Practices
-1. **Asset Organization**: Maintain a well-structured folder for all design system assets
-2. **Template Variety**: Create 2-3 template options for each use case
-3. **Skill Specialization**: Build separate skills for different content types (technical, promotional, etc.)
-4. **Version Control**: Number template versions (v1.0, v1.1) for easy rollback
+1. **Design Systems**
+   - Include dark/light mode variants
+   - Document usage rules
+   - Store source files externally
+
+2. **Templates**
+   - Create variants for A/B testing
+   - Organize by use case frequency
+   - Include placeholder annotations
+
+3. **Skills**
+   - Limit to 3-5 core templates per skill
+   - Refresh training data quarterly
+   - Validate against design system
 
 ## Common Pitfalls
-1. **Incomplete Design Systems**: Missing component states (hover, active) leads to inconsistent outputs
-2. **Overly Rigid Templates**: Lack of placeholder variety causes repetitive layouts
-3. **Skill Scope Creep**: Trying to handle too many use cases in one skill reduces effectiveness
-4. **Token Waste**: Generating full designs before establishing copy/structure
+1. **Incomplete Design Systems**
+   - Symptom: Inconsistent colors/fonts
+   - Fix: Audit with [Design System Checklist](references/design_systems.md)
+
+2. **Overly Broad Templates**
+   - Symptom: Constant layout tweaks
+   - Fix: Create specialized variants
+
+3. **Skill Drift**
+   - Symptom: Off-brand copy
+   - Fix: Re-anchor with recent examples
 
 ## Validation Steps
-1. **Design System Checks**:
+1. **Design System**
    - Generate 3 test assets
-   - Verify brand consistency across all
-   - Check mobile responsiveness
+   - Check for consistency
 
-2. **Template Testing**:
-   - Populate with real content
-   - Ensure no layout breaking
-   - Verify text length handling
+2. **Templates**
+   - Stress test with edge cases
+   - Verify mobile responsiveness
 
-3. **Skill Validation**:
-   - Test with 3 sample briefs
-   - Check template selection logic
-   - Review copy tone consistency
+3. **Skills**
+   - Run 5 sample prompts
+   - Check template match rate
+
+## Maintenance Schedule
+- Monthly: Review skill outputs
+- Quarterly: Update templates
+- Biannually: Refresh design system
 
 ## 📺 Source Videos
 
@@ -120,6 +131,5 @@ Base it on these examples: [LINKS/ATTACHMENTS]"
 
 ## Prerequisites
 
-- Basic familiarity with Claude Design interface
-- Access to Claude Design in browser/app
-- Brand assets (logos, colors, fonts) or design inspiration sources
+- basic familiarity with Claude interface
+- access to Claude Design feature

@@ -1,58 +1,57 @@
 ## Code Examples for Vector Database Integration
 
-### Embedding Conversion
+This document provides code snippets for integrating vector databases into generative AI systems.
+
+### Example 1: Converting a Query to a Vector
+
 ```python
 from sentence_transformers import SentenceTransformer
 
-# Load pre-trained embedding model
 model = SentenceTransformer('all-MiniLM-L6-v2')
-
-# Convert text to vector
-text = "User query here"
-vector = model.encode(text)
-print(vector)
+query_vector = model.encode('What is the capital of France?')
 ```
 
-### Vector Storage
+### Example 2: Searching a Vector Database
+
 ```python
-import pinecone
+import vector_database_library as vdb
 
-# Initialize Pinecone
-pinecone.init(api_key="your-api-key", environment="us-west1-gcp")
-
-# Create or connect to a vector database
-index = pinecone.Index("example-index")
-
-# Store vector
-index.upsert([("vector-id", vector)])
+results = vdb.search(query_vector, top_k=5)
 ```
 
-### Semantic Search
+### Example 3: Passing Context to a Language Model
+
 ```python
-# Search for similar vectors
-query_vector = model.encode("Search query here")
-results = index.query(query_vector, top_k=5)
-print(results)
+context = ' '.join([doc['text'] for doc in results])
+answer = language_model.generate(context)
 ```
 
-### Context Retrieval
+### Example 4: Updating Embeddings
+
 ```python
-# Retrieve top relevant documents
-for match in results['matches']:
-    print(f"Document ID: {match['id']}, Score: {match['score']}")
+new_document_vector = model.encode('New document text')
+vdb.update(new_document_vector)
 ```
 
-### Answer Generation
+### Example 5: Monitoring Performance
+
 ```python
-from transformers import pipeline
-
-# Initialize language model
-qa_pipeline = pipeline("question-answering")
-
-# Generate answer based on retrieved context
-context = "Retrieved document content here"
-answer = qa_pipeline(question="User query here", context=context)
-print(answer)
+performance_metrics = vdb.get_performance_metrics()
+print(performance_metrics)
 ```
 
-These code examples provide a practical guide to integrating vector databases with Generative AI systems. By following these steps, you can effectively convert, store, search, and retrieve vectors to enhance semantic search and improve the accuracy of generated answers.
+### Best Practices
+
+- **Code Modularity**: Keep your code modular for easier maintenance.
+- **Error Handling**: Implement robust error handling to manage unexpected issues.
+- **Documentation**: Document your code thoroughly for future reference.
+
+### Common Pitfalls
+
+- **Hardcoding Parameters**: Avoid hardcoding parameters; use configuration files instead.
+- **Ignoring Performance**: Regularly monitor and optimize performance.
+
+### Validation and Testing
+
+- **Unit Tests**: Write unit tests for each function.
+- **Integration Tests**: Perform integration tests to ensure all components work together seamlessly.

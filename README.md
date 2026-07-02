@@ -14,18 +14,20 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (10 total)
+## Available Skills (12 total)
 
 | Skill | Description |
 |-------|-------------|
-| [AI Agent Operating System Management](./skills/AI Agent Operating System Management/SKILL.md) | This skill outlines the essential components and workflows for managing |
-| [Agentic Experimentation for High-Stakes ML Systems](./skills/Agentic Experimentation for High-Stakes ML Systems/SKILL.md) | Skill for AI agents to safely and efficiently experiment with feature |
-| [Automate Tasks with Genspark Claw](./skills/Automate Tasks with Genspark Claw/SKILL.md) | This skill enables you to automate tasks using Genspark Claw, an AI tool |
+| [AI Agent Operating System Management](./skills/AI Agent Operating System Management/SKILL.md) | A comprehensive skill for managing AI agents through an operating system |
+| [Agentic Experimentation for High-Stakes ML Systems](./skills/Agentic Experimentation for High-Stakes ML Systems/SKILL.md) | A skill for AI agents to safely and efficiently experiment with high-stakes |
+| [Automate Tasks with Genspark Claw](./skills/Automate Tasks with Genspark Claw/SKILL.md) | Learn how to automate tasks using Genspark Claw, an AI-powered tool that |
 | [Automating Email Responses and Meeting Scheduling with OpenClaw](./skills/Automating Email Responses and Meeting Scheduling with OpenClaw/SKILL.md) | This skill enables an AI agent to automate email responses and meeting |
-| [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets in Claude |
-| [Handoff Skill](./skills/Handoff Skill/SKILL.md) | The Handoff Skill enables an AI agent to compact the current conversation |
-| [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A systematic approach to choosing between Retrieval-Augmented Generation |
-| [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to effectively integrate and utilize vector databases in Generative |
+| [Claude Cowork Workflows](./skills/Claude Cowork Workflows/SKILL.md) | A comprehensive skill for setting up and optimizing Claude Cowork workflows, |
+| [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets (presentations, |
+| [Handoff Skill](./skills/Handoff Skill/SKILL.md) | Compact the current conversation into a handoff document for another |
+| [Improve Codebase Architecture](./skills/Improve Codebase Architecture/SKILL.md) | A systematic approach to refactoring and improving codebase architecture |
+| [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A comprehensive skill for determining when to use Retrieval-Augmented |
+| [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to integrate vector databases into generative AI systems for |
 | [claude-cowork-workflows](./skills/claude-cowork-workflows/SKILL.md) | Best practices for co-working with Claude (Desktop, Projects, Artifacts) |
 | [improve-codebase-architecture](./skills/improve-codebase-architecture/SKILL.md) | How to refactor, format, and structure a codebase that has been cluttered |
 

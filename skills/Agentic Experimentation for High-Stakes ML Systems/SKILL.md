@@ -1,130 +1,77 @@
 ---
-description: Skill for AI agents to safely and efficiently experiment with feature
-  engineering and model improvements in high-stakes ML systems without disrupting
-  production workflows.
+description: A skill for AI agents to safely and efficiently experiment with high-stakes
+  ML systems by modifying features, training models, and deploying pipelines in isolated
+  environments while maintaining production integrity.
 name: Agentic Experimentation for High-Stakes ML Systems
 tags:
-- mlops
+- agentic experimentation
+- high-stakes ML
 - feature engineering
-- agentic workflows
+- Chronon
 - fraud detection
-- model experimentation
 ---
 
 # Agentic Experimentation for High-Stakes ML Systems
 
-> Skill for AI agents to safely and efficiently experiment with feature engineering and model improvements in high-stakes ML systems without disrupting production workflows.
+> A skill for AI agents to safely and efficiently experiment with high-stakes ML systems by modifying features, training models, and deploying pipelines in isolated environments while maintaining production integrity.
 
 ## Overview
-This skill enables AI agents to safely modify and improve high-stakes ML systems (fraud detection, trust & safety, personalization) through:
-1. Infrastructure automation for feature engineering
-2. Branch-based resource isolation
-3. Partial aggregate reuse
-4. Production-ready pipeline generation
+This skill enables AI agents to safely experiment with and improve high-stakes machine learning systems like fraud detection models. The approach centers around using specialized infrastructure (like [Chronon](references/core_concepts.md)) that provides:
+- Safe experimentation environments
+- Automated feature engineering
+- Production-grade pipeline generation
 
-Core concepts:
-- Agents modify features/models but don't replace entire production systems
-- All changes happen in isolated dev branches
-- Chronon automates underlying infrastructure
-- Humans review before production deployment
+Key principles from the [Core Concepts](references/core_concepts.md) guide the agent's actions to ensure system stability while enabling rapid iteration.
 
 ## Step-by-Step Workflow
-1. **Identify improvement opportunity**
-   - Analyze model performance metrics
-   - Review recent fraud patterns/attack vectors
-   - Consult feature importance rankings
+1. **Establish Isolation**
+   - Create a dedicated branch for the experiment
+   - Configure isolated compute/storage resources
 
-2. **Define new feature(s)** using Chronon API
-   ```python
-   # Example: Add 7-day window to existing features
-   new_feature = Feature(
-     name="user_login_count_7d",
-     sources=[existing_login_source],
-     aggregation=Aggregation(
-       operation=Operation.COUNT,
-       windows=[Window(length=7, timeUnit=TimeUnit.DAYS)]
-     )
-   )
-   ```
+2. **Feature Modification**
+   - Start from existing production feature set
+   - Make incremental changes (add/remove/modify features)
+   - Use semantic API as shown in [Code Examples](references/code_examples.md)
 
-3. **Create isolated branch**
-   - Framework automatically creates branch
-   - All subsequent operations use branch-specific resources
+3. **Data Generation**
+   - Generate training data using platform's backfill capability
+   - Leverage automatic compute reuse for unchanged features
 
-4. **Run backfill**
-   - System intelligently reuses existing aggregates
-   - Only computes new/changed features
-   - Results stored in branch-specific tables
+4. **Model Training**
+   - Train new model version on isolated infrastructure
+   - Maintain consistency between training/serving pipelines
 
-5. **Train model**
-   - Automatically generates training data
-   - Integrates with model platforms (SageMaker, VertexAI)
-   - Produces branch-specific model version
+5. **Evaluation Packaging**
+   - Generate comprehensive experiment report
+   - Include:
+     - Feature changes
+     - Model metrics
+     - Resource usage
+     - Reproducibility instructions
 
-6. **Evaluate results**
-   - Compare metrics against production baseline
-   - Generate explainability reports
-   - Validate against test cases
-
-7. **Prepare deployment package**
-   - Chronon generates production-ready:
-     - Serving pipelines
-     - Monitoring configs
-     - Documentation
-
-8. **Submit for human review**
-   - Package includes:
-     - Change summary
-     - Performance impact
-     - Resource requirements
-     - Rollback plan
+6. **Human Handoff**
+   - Present results for human review
+   - Prepare materials for potential AB test
 
 ## Best Practices
-1. **Safety first**
-   - Never modify production resources directly
-   - Enforce branch isolation at infrastructure level
-   - Set resource limits per agent/team
-
-2. **Efficient experimentation**
-   - Leverage partial aggregate caching
-   - Reuse unchanged features
-   - Prioritize high-impact changes
-
-3. **Production readiness**
-   - Ensure all pipelines include:
-     - Monitoring
-     - Alerting
-     - Documentation
+1. **Incremental Changes**: Focus on small, interpretable modifications rather than wholesale redesigns.
+2. **Reuse First**: Always build upon existing production features when possible.
+3. **Document Everything**: Ensure every experiment is fully documented for review.
+4. **Resource Awareness**: Monitor compute usage and stay within allocated budgets.
 
 ## Common Pitfalls
-1. **Silent failures**
-   - Missing branch isolation
-   - Incomplete feature lineage
-
-2. **Cost explosions**
-   - Not reusing existing computations
-   - No resource quotas
-
-3. **Unreviewable changes**
-   - Overly complex modifications
-   - Poor documentation
+1. **Over-Experimentation**: Avoid running too many concurrent experiments without proper resource controls.
+2. **Production Contamination**: Never allow experimental code to modify production data directly.
+3. **Black Box Changes**: Ensure all feature modifications have clear semantics and documentation.
+4. **Cost Blindness**: Monitor infrastructure costs which can scale quickly with many experiments.
 
 ## Validation Steps
-1. **Consistency check**
-   - Verify training/serving data matches
-   - Validate against golden datasets
+1. **Consistency Checks**: Verify training/serving data pipelines produce identical outputs given same inputs.
+2. **Performance Testing**: Ensure new model versions meet latency/QPS requirements.
+3. **Reproducibility**: Confirm experiments can be exactly reproduced from their definitions.
+4. **Safety Review**: Human verification that all isolation mechanisms worked correctly.
 
-2. **Performance testing**
-   - Load test new pipelines
-   - Verify latency/QPS targets
-
-3. **Security review**
-   - Check data access patterns
-   - Validate isolation boundaries
-
-4. **Reproducibility test**
-   - Re-run pipeline from definition
-   - Compare outputs
+For implementation details, see the [Practical Guide](references/practical_guide.md) and [Code Examples](references/code_examples.md).
 
 ## 📺 Source Videos
 
@@ -134,6 +81,6 @@ Core concepts:
 
 ## Prerequisites
 
-- Understanding of ML feature pipelines
+- Understanding of ML feature engineering
 - Familiarity with production ML systems
-- Knowledge of feature stores
+- Basic knowledge of data pipelines
