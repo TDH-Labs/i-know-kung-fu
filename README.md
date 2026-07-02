@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (8 total)
+## Available Skills (10 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -24,6 +24,8 @@ npx skills find --owner TDH-Labs
 | [Automating Email Responses and Meeting Scheduling with OpenClaw](./skills/Automating Email Responses and Meeting Scheduling with OpenClaw/SKILL.md) | This skill enables an AI agent to automate email responses and meeting |
 | [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets in Claude |
 | [Handoff Skill](./skills/Handoff Skill/SKILL.md) | The Handoff Skill enables an AI agent to compact the current conversation |
+| [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A systematic approach to choosing between Retrieval-Augmented Generation |
+| [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to effectively integrate and utilize vector databases in Generative |
 | [claude-cowork-workflows](./skills/claude-cowork-workflows/SKILL.md) | Best practices for co-working with Claude (Desktop, Projects, Artifacts) |
 | [improve-codebase-architecture](./skills/improve-codebase-architecture/SKILL.md) | How to refactor, format, and structure a codebase that has been cluttered |
 
