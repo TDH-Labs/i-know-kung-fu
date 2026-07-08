@@ -2,4 +2,4 @@
 
 The following curated videos were synthesized to create this skill:
 
-1. **[How to Use Claude Connectors](https://www.youtube.com/watch?v=1-Rr3iadlOs)** by Kevin Stratvert
+1. **[Claude Connectors Tutorial for Beginners](https://www.youtube.com/watch?v=FpRNId-jeTQ)** by Kevin Stratvert

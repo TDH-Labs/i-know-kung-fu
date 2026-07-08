@@ -14,55 +14,82 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (52 total)
+## Available Skills (79 total)
 
 | Skill | Description |
 |-------|-------------|
 | [AFK AI Agent Orchestration with Sandcastle](./skills/AFK AI Agent Orchestration with Sandcastle/SKILL.md) | A comprehensive skill for setting up and managing autonomous AI coding |
 | [AI Agent Authenticity Evaluation](./skills/AI Agent Authenticity Evaluation/SKILL.md) | A systematic approach to evaluate whether a product claiming to be an |
+| [AI Agent Coordination in Real-World Workflows](./skills/AI Agent Coordination in Real-World Workflows/SKILL.md) | A skill for designing and implementing AI agents that effectively coordinate |
+| [AI Agent Development and Observability](./skills/AI Agent Development and Observability/SKILL.md) | A comprehensive skill for developing, deploying, and monitoring AI agents |
+| [AI Agent Governance](./skills/AI Agent Governance/SKILL.md) | A comprehensive skill for implementing governance, controls, and best |
 | [AI Agent Integration for High-Stakes Systems](./skills/AI Agent Integration for High-Stakes Systems/SKILL.md) | A skill for integrating AI agents into high-stakes systems like fraud |
+| [AI Agent Management and Local Model Deployment](./skills/AI Agent Management and Local Model Deployment/SKILL.md) | Learn how to design, manage, and deploy AI agents effectively, including |
 | [AI Agent Management and Orchestration](./skills/AI Agent Management and Orchestration/SKILL.md) | A comprehensive skill for managing and orchestrating AI agents using |
 | [AI Agent Operating System Management](./skills/AI Agent Operating System Management/SKILL.md) | A comprehensive skill for managing AI agents through an operating system |
+| [AI Agent Operation Fundamentals](./skills/AI Agent Operation Fundamentals/SKILL.md) | 'Master the five core components of modern AI agent systems: agents.md |
+| [AI Agent Skills Integration](./skills/AI Agent Skills Integration/SKILL.md) | A comprehensive skill for integrating and utilizing various AI agent |
 | [AI Agent Workflow Automation with Google Gemini](./skills/AI Agent Workflow Automation with Google Gemini/SKILL.md) | Implement autonomous AI agents using Google Gemini's Spark feature to |
 | [AI Agent Workflow Execution](./skills/AI Agent Workflow Execution/SKILL.md) | A comprehensive skill for AI agents to perform complex tasks by perceiving, |
+| [AI Model Orchestration with Fugu Ultra](./skills/AI Model Orchestration with Fugu Ultra/SKILL.md) | This skill enables you to effectively orchestrate multiple AI models |
 | [AI Model Training with Task Fidelity Scaling](./skills/AI Model Training with Task Fidelity Scaling/SKILL.md) | A skill for training AI models using high-quality tasks that adhere to |
+| [AI Pair Programming Assistance](./skills/AI Pair Programming Assistance/SKILL.md) | A skill enabling AI agents to assist developers in coding tasks, from |
+| [AI Sales Agent Deployment for Lead Generation Websites](./skills/AI Sales Agent Deployment for Lead Generation Websites/SKILL.md) | A comprehensive skill for deploying 24/7 AI sales agents on lead generation |
 | [AI Skill Security and Deployment](./skills/AI Skill Security and Deployment/SKILL.md) | This skill enables AI agents to securely deploy and manage AI skills |
 | [AI Task Automation with Genspark Claw](./skills/AI Task Automation with Genspark Claw/SKILL.md) | Automate computer tasks using Genspark Claw, including file organization, |
+| [AI Task Management with Large Language Models](./skills/AI Task Management with Large Language Models/SKILL.md) | Skill for effectively delegating complex, high-value tasks to large language |
 | [AI Tools Stack Optimization](./skills/AI Tools Stack Optimization/SKILL.md) | Learn how to optimize your AI tool stack for maximum efficiency and productivity |
 | [AI Usage Monitoring Dashboard](./skills/AI Usage Monitoring Dashboard/SKILL.md) | Build a dashboard to monitor and analyze your AI token usage across different |
 | [AI-Augmented Team Productivity](./skills/AI-Augmented Team Productivity/SKILL.md) | Optimize team productivity by leveraging AI to extend individual capabilities |
 | [AI-Driven Knowledge Management](./skills/AI-Driven Knowledge Management/SKILL.md) | Transform traditional filing systems into dynamic, AI-driven knowledge |
+| [AI-Powered Meeting Management](./skills/AI-Powered Meeting Management/SKILL.md) | Skill for managing meetings end-to-end using AI assistance, including |
+| [Agent Maintenance and Optimization](./skills/Agent Maintenance and Optimization/SKILL.md) | A systematic approach to maintaining and optimizing AI agents by focusing |
 | [Agent Monitoring and Analytics Implementation](./skills/Agent Monitoring and Analytics Implementation/SKILL.md) | Implement comprehensive monitoring and analytics for AI agents to track |
 | [Agentic AI System Design](./skills/Agentic AI System Design/SKILL.md) | A comprehensive skill for designing robust agentic AI systems that avoid |
 | [Agentic Development with Skills](./skills/Agentic Development with Skills/SKILL.md) | A comprehensive skill for AI agents to perform agentic development tasks |
 | [Agentic Experimentation for High-Stakes ML Systems](./skills/Agentic Experimentation for High-Stakes ML Systems/SKILL.md) | A skill for AI agents to safely and efficiently experiment with high-stakes |
+| [Agentic Loop Implementation](./skills/Agentic Loop Implementation/SKILL.md) | Implement autonomous agentic loops for binary decision tasks, with safeguards |
 | [Architecting Modern AI Systems](./skills/Architecting Modern AI Systems/SKILL.md) | This skill provides a comprehensive guide to architecting modern AI systems, |
 | [AutoResearchOptimization](./skills/AutoResearchOptimization/SKILL.md) | A skill enabling AI agents to autonomously optimize skills and processes |
 | [Automate Tasks with Genspark Claw](./skills/Automate Tasks with Genspark Claw/SKILL.md) | Learn how to automate tasks using Genspark Claw, an AI-powered tool that |
 | [Automating Email Responses and Meeting Scheduling with OpenClaw](./skills/Automating Email Responses and Meeting Scheduling with OpenClaw/SKILL.md) | A comprehensive skill for setting up OpenClaw as a digital assistant |
 | [Automating Tasks with OpenClaw](./skills/Automating Tasks with OpenClaw/SKILL.md) | This skill enables you to automate real-world tasks using OpenClaw, such |
+| [Building AI Agents with Design Systems and Python](./skills/Building AI Agents with Design Systems and Python/SKILL.md) | A comprehensive skill for building AI agents that leverage design systems, |
 | [Building Live Artifacts with Claude](./skills/Building Live Artifacts with Claude/SKILL.md) | This skill enables you to create personalized dashboards with live data |
 | [Building Role-Based Access Control (RBAC) Applications with AI](./skills/Building Role-Based Access Control (RBAC) Applications with AI/SKILL.md) | A systematic approach to building RBAC applications using AI for initial |
+| [Claude AI Tool Utilization](./skills/Claude AI Tool Utilization/SKILL.md) | A comprehensive skill for utilizing Claude AI across various use cases |
 | [Claude Co-Work Skill Development](./skills/Claude Co-Work Skill Development/SKILL.md) | A comprehensive skill for developing, testing, and optimizing AI agent |
-| [Claude Connectors Integration](./skills/Claude Connectors Integration/SKILL.md) | Skill for connecting Claude AI to external services like Gmail, Google |
+| [Claude Connectors Integration](./skills/Claude Connectors Integration/SKILL.md) | Learn how to integrate Claude with external services like Gmail, Google |
+| [Claude Cowork Workflow Automation](./skills/Claude Cowork Workflow Automation/SKILL.md) | A comprehensive skill for automating daily workflows using Claude Cowork, |
 | [Claude Cowork Workflows](./skills/Claude Cowork Workflows/SKILL.md) | A comprehensive skill for setting up and optimizing Claude Cowork workflows, |
 | [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets (presentations, |
 | [Claude Routine Automation](./skills/Claude Routine Automation/SKILL.md) | Automate recurring tasks and event-triggered workflows using Claude's |
 | [Code Comprehension with AI](./skills/Code Comprehension with AI/SKILL.md) | A systematic approach to using AI for understanding complex codebases, |
 | [Decision-Aware AI Agent Framework](./skills/Decision-Aware AI Agent Framework/SKILL.md) | A comprehensive framework for building decision-aware AI agents using |
 | [Design Automation with Claude Design](./skills/Design Automation with Claude Design/SKILL.md) | A comprehensive skill for automating design workflows using Claude Design, |
+| [Designing Agentic Systems](./skills/Designing Agentic Systems/SKILL.md) | A comprehensive skill for designing and implementing agentic systems, |
 | [Effective Context Engineering for AI Agents](./skills/Effective Context Engineering for AI Agents/SKILL.md) | Learn how to leverage grounding, retrieval-augmented generation (RAG), |
 | [Enterprise AI Agent Deployment](./skills/Enterprise AI Agent Deployment/SKILL.md) | A systematic approach to deploying AI agents within enterprise environments |
+| [Enterprise AI Deployment Framework](./skills/Enterprise AI Deployment Framework/SKILL.md) | A comprehensive framework for deploying AI agents at enterprise scale, |
 | [Enterprise-Level Code Generation and Evaluation with LLMs](./skills/Enterprise-Level Code Generation and Evaluation with LLMs/SKILL.md) | A skill for generating enterprise-ready code using LLMs, evaluating its |
 | [EnterpriseDocumentProcessingWithAgenticRAG](./skills/EnterpriseDocumentProcessingWithAgenticRAG/SKILL.md) | A skill for processing and querying enterprise documents using Agentic |
+| [GLM_5.2_Integration_and_Usage](./skills/GLM_5.2_Integration_and_Usage/SKILL.md) | Learn how to integrate and effectively use GLM 5.2, an open-source local |
 | [Grill with Docs](./skills/Grill with Docs/SKILL.md) | A skill for AI-assisted development that combines the Grill Me technique |
 | [Handoff Skill](./skills/Handoff Skill/SKILL.md) | Compact the current conversation into a handoff document for another |
+| [Hermes Agent Setup and Usage](./skills/Hermes Agent Setup and Usage/SKILL.md) | A comprehensive guide to setting up and using the Hermes AI Agent locally |
 | [Implementing an AI Agent Operating System](./skills/Implementing an AI Agent Operating System/SKILL.md) | This skill outlines the steps to design and implement an operating system |
 | [Improve Codebase Architecture](./skills/Improve Codebase Architecture/SKILL.md) | A systematic approach to refactoring and improving codebase architecture |
+| [Integrating SaaS Tools with AI Agents](./skills/Integrating SaaS Tools with AI Agents/SKILL.md) | A comprehensive skill for integrating SaaS tools using AI agents, focusing |
 | [Invoice Processing Automation](./skills/Invoice Processing Automation/SKILL.md) | An AI agent skill for end-to-end invoice processing automation using |
+| [Local AI Model Deployment](./skills/Local AI Model Deployment/SKILL.md) | A comprehensive skill for deploying and utilizing local AI models as |
+| [Local AI Model Deployment with Ollama on NVIDIA DGX Spark](./skills/Local AI Model Deployment with Ollama on NVIDIA DGX Spark/SKILL.md) | Skill for deploying and running local AI models using Ollama on NVIDIA |
+| [Log-Centric Agent Architecture](./skills/Log-Centric Agent Architecture/SKILL.md) | Implement and manage AI agents where the log is the primary source of |
+| [Loop_of_Loops_Workflow_Automation](./skills/Loop_of_Loops_Workflow_Automation/SKILL.md) | Automate recurring tasks by creating interconnected loops that manage |
 | [Meta Skills Integration for AI Agents](./skills/Meta Skills Integration for AI Agents/SKILL.md) | This skill equips AI agents with essential meta skills to enhance performance |
 | [Multi-Agent Verification System Design](./skills/Multi-Agent Verification System Design/SKILL.md) | Design and implement a multi-agent AI system for high-stakes decision |
 | [Multimodal AI Interaction with Gemini 3.5 Flash](./skills/Multimodal AI Interaction with Gemini 3.5 Flash/SKILL.md) | Master the use of Gemini 3.5 Flash for multimodal AI tasks, including |
+| [Multiplayer AI Collaboration with Pods](./skills/Multiplayer AI Collaboration with Pods/SKILL.md) | Implement flocking algorithm principles (local separation, distant attraction, |
+| [Production Evaluation for Agentic AI Systems](./skills/Production Evaluation for Agentic AI Systems/SKILL.md) | A comprehensive skill for evaluating agentic AI systems in production |
 | [Production-Grade RAG System Implementation](./skills/Production-Grade RAG System Implementation/SKILL.md) | A comprehensive skill for implementing and maintaining Retrieval-Augmented |
 | [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A comprehensive skill for determining when to use Retrieval-Augmented |
 | [Rebuild Websites Using AI Web App Builders](./skills/Rebuild Websites Using AI Web App Builders/SKILL.md) | Learn how to use AI web app builders like Remy from Mind Studio to rebuild |

@@ -1,25 +1,23 @@
-# Core Concepts of Claude Connectors
+# Core Concepts
 
-Claude Connectors are integration tools that allow Claude AI to interact with external services like email clients, calendars, and productivity apps. This enables Claude to perform actions like reading emails, scheduling events, or managing tasks directly within your conversations.
+## Introduction to Claude Connectors
+Claude Connectors are tools that allow Claude to interact with various external services such as Gmail, Google Calendar, Notion, and more. These connectors enable Claude to perform tasks like reading emails, summarizing threads, drafting responses, and more.
 
-Key capabilities include:
-- **Service Integration**: Connect to popular services like Gmail, Google Calendar, Notion
-- **Data Access**: Read and summarize information from connected accounts
-- **Action Automation**: Perform actions like drafting emails or creating calendar events
-- **Extended Reach**: Through Zapier MCP, access 9,000+ additional apps
+## Types of Connectors
+There are over 200 different services available through Claude Connectors. Some of the most popular include Canva, Microsoft 365, Figma, Notion, Gmail, and Google Drive.
 
-Architecture:
-1. Authentication layer handles OAuth with services
-2. Permission system controls data access levels
-3. API translation layer converts between Claude's interface and service APIs
+## Permissions and Security
+By default, Claude has access to read-only tools. For actions that modify your account, such as creating an email draft, you'll need to grant explicit permission. It's important to review and adjust these settings as needed.
 
-Security features include:
-- Token-based authentication
-- Session-limited access
-- Explicit user permissions for each action
+## Extending Functionality with Zapier MCP
+Zapier MCP allows Claude to connect to thousands of additional apps and perform more complex actions. This includes sending emails directly, which is not possible with the native Gmail connector.
 
-Common use cases:
-- Email triage and response drafting
-- Calendar management
-- Task synchronization across platforms
-- Data retrieval from connected apps
+## Best Practices
+- **Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regular Reviews**: Regularly review the actions taken by Claude to ensure they align with your expectations.
+
+## Common Pitfalls
+- **Over-Permissioning**: Granting too many permissions can lead to unintended actions.
+- **Ignoring History**: Failing to review the history of actions can result in unnoticed errors.
+
+For more detailed information, refer to the [Practical Guide](references/practical_guide.md) and [Code Examples](references/code_examples.md).

@@ -1,38 +1,29 @@
-# Practical Guide to Using Claude Connectors
+# Practical Guide
 
-## Initial Setup
-1. Ensure you have a Claude Pro account (required for connectors)
-2. Navigate to Claude's web interface
-3. Click your profile icon → 'Customize' → 'Connectors'
+## Setting Up Claude Connectors
+1. **Accessing Connectors**: Open Claude, navigate to the Customize pane, and click on Connectors.
+2. **Adding a Connector**: Click the plus icon to add a new connector and browse the available services.
+3. **Connecting to Gmail**: Select Gmail, grant necessary permissions, and complete the setup.
 
-## Connecting Services
-For Gmail:
-1. Select 'Gmail' from available connectors
-2. Authenticate with your Google account
-3. Set permission levels (read-only, compose, etc.)
-4. Confirm connection
+## Testing the Connection
+1. **Reviewing Inbox**: Use Claude to review your inbox and identify high-priority emails.
+2. **Drafting Responses**: Ask Claude to draft a response to a specific email.
 
-For Zapier MCP:
-1. Select 'Zapier' connector
-2. Authenticate with Zapier account
-3. Configure desired app connections
-4. Set up trigger-action pairs as needed
+## Extending Functionality with Zapier MCP
+1. **Creating a Zapier Account**: Sign up for a free Zapier account.
+2. **Connecting Claude to Zapier**: Use the provided prompt to connect Claude to Zapier.
+3. **Adding Apps**: Connect additional apps like Gmail to extend Claude's capabilities.
 
-## Usage Patterns
-**Email Management:**
-- "Show me unread emails from [sender]"
-- "Draft a response to email [subject] saying [message]"
+## Performing Advanced Actions
+1. **Sending Emails**: Use Zapier to send emails directly from Claude.
+2. **Reviewing Actions**: Check the history of actions taken by Claude to ensure they align with your expectations.
 
-**Calendar Operations:**
-- "Do I have meetings scheduled with [person] this week?"
-- "Schedule a 30-minute meeting with [person] on [date]"
+## Best Practices
+- **Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regular Reviews**: Regularly review the actions taken by Claude to ensure they align with your expectations.
 
-**Notion Integration:**
-- "Create a new page in [workspace] with title [title]"
-- "Summarize the key points from [Notion page]"
+## Common Pitfalls
+- **Over-Permissioning**: Granting too many permissions can lead to unintended actions.
+- **Ignoring History**: Failing to review the history of actions can result in unnoticed errors.
 
-## Maintenance
-- Regularly review connected services
-- Audit permissions quarterly
-- Disconnect unused integrations
-- Monitor API usage limits
+For more detailed information, refer to the [Core Concepts](references/core_concepts.md) and [Code Examples](references/code_examples.md).
