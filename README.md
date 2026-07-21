@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (121 total)
+## Available Skills (133 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -37,9 +37,12 @@ npx skills find --owner TDH-Labs
 | [AI Agent Workflow Integration](./skills/AI Agent Workflow Integration/SKILL.md) | A comprehensive skill for integrating AI agents into development workflows |
 | [AI Coding Workflow with Matt Pocock's Skills](./skills/AI Coding Workflow with Matt Pocock's Skills/SKILL.md) | A comprehensive guide to setting up and using Matt Pocock's AI coding |
 | [AI Collaboration Tools Integration](./skills/AI Collaboration Tools Integration/SKILL.md) | This skill enables an AI agent to effectively integrate and utilize AI |
+| [AI Integration and Optimization](./skills/AI Integration and Optimization/SKILL.md) | A comprehensive skill for integrating and optimizing AI agents using |
 | [AI Knowledge Base Management](./skills/AI Knowledge Base Management/SKILL.md) | Learn how to create, manage, and utilize AI knowledge bases for search, |
+| [AI Model Customization](./skills/AI Model Customization/SKILL.md) | A comprehensive skill for customizing AI models using techniques like |
 | [AI Model Orchestration with Fugu Ultra](./skills/AI Model Orchestration with Fugu Ultra/SKILL.md) | This skill enables you to effectively orchestrate multiple AI models |
 | [AI Model Training with Task Fidelity Scaling](./skills/AI Model Training with Task Fidelity Scaling/SKILL.md) | A skill for training AI models using high-quality tasks that adhere to |
+| [AI News Presenter Creation](./skills/AI News Presenter Creation/SKILL.md) | Create realistic AI news presenters with multilingual capabilities, authentic |
 | [AI Pair Programming Assistance](./skills/AI Pair Programming Assistance/SKILL.md) | A skill enabling AI agents to assist developers in coding tasks, from |
 | [AI Phone Agent Deployment](./skills/AI Phone Agent Deployment/SKILL.md) | Deploy an AI phone agent to handle customer inquiries efficiently, reducing |
 | [AI Research Automation](./skills/AI Research Automation/SKILL.md) | A skill enabling AI agents to autonomously conduct machine learning research, |
@@ -59,6 +62,7 @@ npx skills find --owner TDH-Labs
 | [AI-Driven Software Development Workflow](./skills/AI-Driven Software Development Workflow/SKILL.md) | A comprehensive skill for AI agents to assist in software development |
 | [AI-Native Workflow Automation](./skills/AI-Native Workflow Automation/SKILL.md) | A comprehensive skill for building AI-native organizations using skill |
 | [AI-Powered Meeting Management](./skills/AI-Powered Meeting Management/SKILL.md) | Skill for managing meetings end-to-end using AI assistance, including |
+| [Academic Research Workflow Automation with Consensus AI and Claude](./skills/Academic Research Workflow Automation with Consensus AI and Claude/SKILL.md) | This skill enables you to automate academic research workflows by integrating |
 | [Agent Maintenance and Optimization](./skills/Agent Maintenance and Optimization/SKILL.md) | A systematic approach to maintaining and optimizing AI agents by focusing |
 | [Agent Monitoring and Analytics Implementation](./skills/Agent Monitoring and Analytics Implementation/SKILL.md) | Implement comprehensive monitoring and analytics for AI agents to track |
 | [Agent Workflow Management with CI](./skills/Agent Workflow Management with CI/SKILL.md) | '' |
@@ -74,16 +78,19 @@ npx skills find --owner TDH-Labs
 | [Automating Email Responses and Meeting Scheduling with OpenClaw](./skills/Automating Email Responses and Meeting Scheduling with OpenClaw/SKILL.md) | A comprehensive skill for setting up OpenClaw as a digital assistant |
 | [Automating Tasks with OpenClaw](./skills/Automating Tasks with OpenClaw/SKILL.md) | This skill enables you to automate real-world tasks using OpenClaw, such |
 | [Autonomous Scientific Research Agent](./skills/Autonomous Scientific Research Agent/SKILL.md) | A skill for AI agents to autonomously conduct scientific research tasks, |
+| [Build Applications with Claude Code](./skills/Build Applications with Claude Code/SKILL.md) | Learn how to configure and use Claude Code for free to build modular, |
 | [Building AI Agents with Claude Code](./skills/Building AI Agents with Claude Code/SKILL.md) | A comprehensive skill for creating and managing AI agents using Claude |
 | [Building AI Agents with Design Systems and Python](./skills/Building AI Agents with Design Systems and Python/SKILL.md) | A comprehensive skill for building AI agents that leverage design systems, |
 | [Building Live Artifacts with Claude](./skills/Building Live Artifacts with Claude/SKILL.md) | This skill enables you to create personalized dashboards with live data |
 | [Building Role-Based Access Control (RBAC) Applications with AI](./skills/Building Role-Based Access Control (RBAC) Applications with AI/SKILL.md) | A systematic approach to building RBAC applications using AI for initial |
+| [Building a Decoupled AI Agent Architecture](./skills/Building a Decoupled AI Agent Architecture/SKILL.md) | This skill teaches you how to design and implement a decoupled AI agent |
 | [Building a Finance Dashboard with AI Agents](./skills/Building a Finance Dashboard with AI Agents/SKILL.md) | Learn how to create a finance dashboard that tracks market activity, |
 | [Building and Managing Context Layers for AI Agents](./skills/Building and Managing Context Layers for AI Agents/SKILL.md) | This skill teaches AI agents how to build, manage, and utilize context |
 | [Business Automation with Loop Engineering](./skills/Business Automation with Loop Engineering/SKILL.md) | A comprehensive guide to implementing loop engineering for automating |
 | [Claude AI Interaction Optimization](./skills/Claude AI Interaction Optimization/SKILL.md) | Optimize interactions with Claude AI by leveraging its advanced features |
 | [Claude AI Tool Utilization](./skills/Claude AI Tool Utilization/SKILL.md) | A comprehensive skill for utilizing Claude AI across various use cases |
 | [Claude Co-Work Skill Development](./skills/Claude Co-Work Skill Development/SKILL.md) | A comprehensive skill for developing, testing, and optimizing AI agent |
+| [Claude Co-work Mastery](./skills/Claude Co-work Mastery/SKILL.md) | A comprehensive skill for mastering Claude Co-work, including setup, |
 | [Claude Connectors Integration](./skills/Claude Connectors Integration/SKILL.md) | Learn how to integrate Claude with external services like Gmail, Google |
 | [Claude Cowork Workflow Automation](./skills/Claude Cowork Workflow Automation/SKILL.md) | A comprehensive skill for automating daily workflows using Claude Cowork, |
 | [Claude Cowork Workflows](./skills/Claude Cowork Workflows/SKILL.md) | A comprehensive skill for setting up and optimizing Claude Cowork workflows, |
@@ -91,6 +98,7 @@ npx skills find --owner TDH-Labs
 | [Claude Routine Automation](./skills/Claude Routine Automation/SKILL.md) | Automate recurring tasks and event-triggered workflows using Claude's |
 | [Code Comprehension with AI](./skills/Code Comprehension with AI/SKILL.md) | A systematic approach to using AI for understanding complex codebases, |
 | [Codex Life and Business Automation](./skills/Codex Life and Business Automation/SKILL.md) | A comprehensive skill for leveraging Codex with GPT 5.6 to automate personal |
+| [Create AI-Animated African Folktales](./skills/Create AI-Animated African Folktales/SKILL.md) | A step-by-step guide to creating AI-animated African folktales, from |
 | [Decision-Aware AI Agent Framework](./skills/Decision-Aware AI Agent Framework/SKILL.md) | A comprehensive framework for building decision-aware AI agents using |
 | [Deploying AI Agents on the Open Web Using Nanda Infrastructure](./skills/Deploying AI Agents on the Open Web Using Nanda Infrastructure/SKILL.md) | Learn how to deploy and manage AI agents on the open web using Nanda's |
 | [Design Automation with Claude Design](./skills/Design Automation with Claude Design/SKILL.md) | A comprehensive skill for automating design workflows using Claude Design, |
@@ -111,10 +119,13 @@ npx skills find --owner TDH-Labs
 | [Hermes Agent Setup and Usage](./skills/Hermes Agent Setup and Usage/SKILL.md) | A comprehensive guide to setting up and using the Hermes AI Agent locally |
 | [Implementing Advanced Voice Interaction Models](./skills/Implementing Advanced Voice Interaction Models/SKILL.md) | This skill enables you to implement and optimize advanced voice interaction |
 | [Implementing Recursive Language Models (RLM) for Large Codebases](./skills/Implementing Recursive Language Models (RLM) for Large Codebases/SKILL.md) | This skill teaches you how to implement Recursive Language Models (RLM) |
+| [Implementing a Simple and Effective Productivity System](./skills/Implementing a Simple and Effective Productivity System/SKILL.md) | This skill teaches you how to design and implement a productivity system |
 | [Implementing an AI Agent Operating System](./skills/Implementing an AI Agent Operating System/SKILL.md) | This skill outlines the steps to design and implement an operating system |
 | [Improve Codebase Architecture](./skills/Improve Codebase Architecture/SKILL.md) | A systematic approach to refactoring and improving codebase architecture |
 | [Integrating SaaS Tools with AI Agents](./skills/Integrating SaaS Tools with AI Agents/SKILL.md) | A comprehensive skill for integrating SaaS tools using AI agents, focusing |
 | [Invoice Processing Automation](./skills/Invoice Processing Automation/SKILL.md) | An AI agent skill for end-to-end invoice processing automation using |
+| [LLM Ops for Production AI Systems](./skills/LLM Ops for Production AI Systems/SKILL.md) | A comprehensive skill for managing and operating large language models |
+| [Leveraging Claude Co-Work for AI-Assisted Productivity](./skills/Leveraging Claude Co-Work for AI-Assisted Productivity/SKILL.md) | This skill teaches you how to effectively use Claude Co-Work to enhance |
 | [Local AI Model Deployment](./skills/Local AI Model Deployment/SKILL.md) | A comprehensive skill for deploying and utilizing local AI models as |
 | [Local AI Model Deployment with Ollama on NVIDIA DGX Spark](./skills/Local AI Model Deployment with Ollama on NVIDIA DGX Spark/SKILL.md) | Skill for deploying and running local AI models using Ollama on NVIDIA |
 | [Log-Centric Agent Architecture](./skills/Log-Centric Agent Architecture/SKILL.md) | Implement and manage AI agents where the log is the primary source of |
@@ -128,6 +139,7 @@ npx skills find --owner TDH-Labs
 | [Processing Unstructured Physical Data with AI Agents](./skills/Processing Unstructured Physical Data with AI Agents/SKILL.md) | This skill enables AI agents to efficiently process and analyze unstructured |
 | [Production Evaluation for Agentic AI Systems](./skills/Production Evaluation for Agentic AI Systems/SKILL.md) | A comprehensive skill for evaluating agentic AI systems in production |
 | [Production-Grade RAG System Implementation](./skills/Production-Grade RAG System Implementation/SKILL.md) | A comprehensive skill for implementing and maintaining Retrieval-Augmented |
+| [Quarterly Goal Setting and Review](./skills/Quarterly Goal Setting and Review/SKILL.md) | This skill enables an AI agent to assist users in setting and reviewing |
 | [QuickBooks AI Agent Integration](./skills/QuickBooks AI Agent Integration/SKILL.md) | A comprehensive skill for integrating and utilizing QuickBooks AI agents |
 | [QuickBooks Workforce Payroll and HR Automation](./skills/QuickBooks Workforce Payroll and HR Automation/SKILL.md) | Automate payroll and HR processes using QuickBooks Workforce, including |
 | [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A comprehensive skill for determining when to use Retrieval-Augmented |

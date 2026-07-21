@@ -1,0 +1,6 @@
+## Core Concepts
+Customizing AI models involves several techniques, each suited for different scenarios. Fine-tuning adjusts the weights of a base model using a focused dataset, making it better at specific tasks. Retrieval-Augmented Generation (RAG) retrieves relevant documents at query time and feeds them into the prompt, enhancing the model's knowledge without altering its weights. Low-Rank Adaptation (LoRA) fine-tunes a small adapter on top of an existing base model, keeping most original weights locked. Agent skills package procedural knowledge and tools, enabling general-purpose models to perform specialized tasks.
+
+Fine-tuning is beneficial when reduced latency is crucial, such as in real-time applications like voice agents. RAG is ideal when knowledge is fresh or proprietary, allowing the model to access up-to-date information. LoRA offers a parameter-efficient method for fine-tuning, making it cost-effective. Agent skills are useful for procedural tasks, providing the model with specific instructions and tools.
+
+Understanding these concepts helps in selecting the right technique for model customization, ensuring optimal performance for specific use cases.
