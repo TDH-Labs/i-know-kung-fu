@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (133 total)
+## Available Skills (146 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -61,11 +61,19 @@ npx skills find --owner TDH-Labs
 | [AI-Driven Sales and Marketing LTV Optimization](./skills/AI-Driven Sales and Marketing LTV Optimization/SKILL.md) | This skill enables you to implement a three-layered architecture for |
 | [AI-Driven Software Development Workflow](./skills/AI-Driven Software Development Workflow/SKILL.md) | A comprehensive skill for AI agents to assist in software development |
 | [AI-Native Workflow Automation](./skills/AI-Native Workflow Automation/SKILL.md) | A comprehensive skill for building AI-native organizations using skill |
+| [AI-Powered Document Creation and Management with Adobe Acrobat](./skills/AI-Powered Document Creation and Management with Adobe Acrobat/SKILL.md) | This skill enables you to leverage Adobe Acrobat's AI capabilities to |
 | [AI-Powered Meeting Management](./skills/AI-Powered Meeting Management/SKILL.md) | Skill for managing meetings end-to-end using AI assistance, including |
+| [AI-Powered Productivity Enhancement](./skills/AI-Powered Productivity Enhancement/SKILL.md) | This skill enables you to leverage AI to automate and optimize common |
+| [AI-Powered Programmatic SEO with Claude](./skills/AI-Powered Programmatic SEO with Claude/SKILL.md) | A skill for generating SEO-optimized content at scale using Claude's |
+| [AI-Powered Research Assistant with NotebookLM](./skills/AI-Powered Research Assistant with NotebookLM/SKILL.md) | This skill enables you to use Google's NotebookLM to transform PDFs, |
+| [AI_Coding_Assistance_Skill](./skills/AI_Coding_Assistance_Skill/SKILL.md) | A skill enabling AI agents to assist in coding tasks using advanced features |
+| [Academic Research Assistant with Claude Co-Work](./skills/Academic Research Assistant with Claude Co-Work/SKILL.md) | A comprehensive skill for using Claude Co-Work to automate and enhance |
 | [Academic Research Workflow Automation with Consensus AI and Claude](./skills/Academic Research Workflow Automation with Consensus AI and Claude/SKILL.md) | This skill enables you to automate academic research workflows by integrating |
+| [Academic Research with NotebookLM](./skills/Academic Research with NotebookLM/SKILL.md) | A comprehensive skill for leveraging NotebookLM to streamline academic |
 | [Agent Maintenance and Optimization](./skills/Agent Maintenance and Optimization/SKILL.md) | A systematic approach to maintaining and optimizing AI agents by focusing |
 | [Agent Monitoring and Analytics Implementation](./skills/Agent Monitoring and Analytics Implementation/SKILL.md) | Implement comprehensive monitoring and analytics for AI agents to track |
 | [Agent Workflow Management with CI](./skills/Agent Workflow Management with CI/SKILL.md) | '' |
+| [Agent-Driven Data Platform Migration and Optimization](./skills/Agent-Driven Data Platform Migration and Optimization/SKILL.md) | This skill enables AI agents to migrate and optimize data platforms, |
 | [Agentic AI Framework Selection](./skills/Agentic AI Framework Selection/SKILL.md) | A comprehensive skill for selecting the appropriate agentic AI framework |
 | [Agentic AI System Design](./skills/Agentic AI System Design/SKILL.md) | A comprehensive skill for designing robust agentic AI systems that avoid |
 | [Agentic Development with Skills](./skills/Agentic Development with Skills/SKILL.md) | A comprehensive skill for AI agents to perform agentic development tasks |
@@ -92,6 +100,7 @@ npx skills find --owner TDH-Labs
 | [Claude Co-Work Skill Development](./skills/Claude Co-Work Skill Development/SKILL.md) | A comprehensive skill for developing, testing, and optimizing AI agent |
 | [Claude Co-work Mastery](./skills/Claude Co-work Mastery/SKILL.md) | A comprehensive skill for mastering Claude Co-work, including setup, |
 | [Claude Connectors Integration](./skills/Claude Connectors Integration/SKILL.md) | Learn how to integrate Claude with external services like Gmail, Google |
+| [Claude Cowork System Setup](./skills/Claude Cowork System Setup/SKILL.md) | A comprehensive skill for setting up and managing a Claude Cowork system, |
 | [Claude Cowork Workflow Automation](./skills/Claude Cowork Workflow Automation/SKILL.md) | A comprehensive skill for automating daily workflows using Claude Cowork, |
 | [Claude Cowork Workflows](./skills/Claude Cowork Workflows/SKILL.md) | A comprehensive skill for setting up and optimizing Claude Cowork workflows, |
 | [Claude Design Automation](./skills/Claude Design Automation/SKILL.md) | A systematic approach to generating brand-aligned design assets (presentations, |
@@ -116,6 +125,7 @@ npx skills find --owner TDH-Labs
 | [Grill with Docs](./skills/Grill with Docs/SKILL.md) | A skill for AI-assisted development that combines the Grill Me technique |
 | [Handling Complex Documents in RAG Systems](./skills/Handling Complex Documents in RAG Systems/SKILL.md) | This skill teaches you how to effectively manage and process complex |
 | [Handoff Skill](./skills/Handoff Skill/SKILL.md) | Compact the current conversation into a handoff document for another |
+| [Hermes Agent Setup and Management](./skills/Hermes Agent Setup and Management/SKILL.md) | A comprehensive skill for setting up and managing Hermes Agent, an open-source |
 | [Hermes Agent Setup and Usage](./skills/Hermes Agent Setup and Usage/SKILL.md) | A comprehensive guide to setting up and using the Hermes AI Agent locally |
 | [Implementing Advanced Voice Interaction Models](./skills/Implementing Advanced Voice Interaction Models/SKILL.md) | This skill enables you to implement and optimize advanced voice interaction |
 | [Implementing Recursive Language Models (RLM) for Large Codebases](./skills/Implementing Recursive Language Models (RLM) for Large Codebases/SKILL.md) | This skill teaches you how to implement Recursive Language Models (RLM) |
@@ -129,8 +139,10 @@ npx skills find --owner TDH-Labs
 | [Local AI Model Deployment](./skills/Local AI Model Deployment/SKILL.md) | A comprehensive skill for deploying and utilizing local AI models as |
 | [Local AI Model Deployment with Ollama on NVIDIA DGX Spark](./skills/Local AI Model Deployment with Ollama on NVIDIA DGX Spark/SKILL.md) | Skill for deploying and running local AI models using Ollama on NVIDIA |
 | [Log-Centric Agent Architecture](./skills/Log-Centric Agent Architecture/SKILL.md) | Implement and manage AI agents where the log is the primary source of |
+| [Logistic_Regression_Binary_Classification](./skills/Logistic_Regression_Binary_Classification/SKILL.md) | A comprehensive skill for implementing logistic regression to solve binary |
 | [Loop_of_Loops_Workflow_Automation](./skills/Loop_of_Loops_Workflow_Automation/SKILL.md) | Automate recurring tasks by creating interconnected loops that manage |
 | [Managing a Fleet of AI Agents Across Multiple Machines](./skills/Managing a Fleet of AI Agents Across Multiple Machines/SKILL.md) | Learn how to effectively manage a fleet of AI agents across multiple |
+| [Mastering Claude: From Enthusiast to Architect](./skills/Mastering Claude: From Enthusiast to Architect/SKILL.md) | A comprehensive skill guide for mastering Claude AI, covering levels |
 | [Meta Skills Integration for AI Agents](./skills/Meta Skills Integration for AI Agents/SKILL.md) | This skill equips AI agents with essential meta skills to enhance performance |
 | [Multi-Agent Verification System Design](./skills/Multi-Agent Verification System Design/SKILL.md) | Design and implement a multi-agent AI system for high-stakes decision |
 | [Multimodal AI Interaction with Gemini 3.5 Flash](./skills/Multimodal AI Interaction with Gemini 3.5 Flash/SKILL.md) | Master the use of Gemini 3.5 Flash for multimodal AI tasks, including |
@@ -149,6 +161,7 @@ npx skills find --owner TDH-Labs
 | [Structured Specification Prompting for Autonomous AI Agents](./skills/Structured Specification Prompting for Autonomous AI Agents/SKILL.md) | Learn how to create structured specifications that enable AI agents to |
 | [Thermonuclear Code Quality Review](./skills/Thermonuclear Code Quality Review/SKILL.md) | A strict, ambitious code review skill focused on structural improvements, |
 | [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to integrate vector databases into generative AI systems for |
+| [ai-agent-development-k](./skills/ai-agent-development-k/SKILL.md) | A comprehensive skill for developing AI agents, focusing on observability, |
 | [ai_agent_management](./skills/ai_agent_management/SKILL.md) | Comprehensive skill for managing AI agents using control planes, observability, |
 | [tying_a_bowline_knot](./skills/tying_a_bowline_knot/SKILL.md) | A comprehensive skill for tying a bowline knot, a secure loop knot commonly |
 
