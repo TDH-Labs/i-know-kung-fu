@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (146 total)
+## Available Skills (152 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -39,6 +39,7 @@ npx skills find --owner TDH-Labs
 | [AI Collaboration Tools Integration](./skills/AI Collaboration Tools Integration/SKILL.md) | This skill enables an AI agent to effectively integrate and utilize AI |
 | [AI Integration and Optimization](./skills/AI Integration and Optimization/SKILL.md) | A comprehensive skill for integrating and optimizing AI agents using |
 | [AI Knowledge Base Management](./skills/AI Knowledge Base Management/SKILL.md) | Learn how to create, manage, and utilize AI knowledge bases for search, |
+| [AI Marketing Automation with Claude Skills](./skills/AI Marketing Automation with Claude Skills/SKILL.md) | Automate marketing tasks using Claude Skills for copywriting, design, |
 | [AI Model Customization](./skills/AI Model Customization/SKILL.md) | A comprehensive skill for customizing AI models using techniques like |
 | [AI Model Orchestration with Fugu Ultra](./skills/AI Model Orchestration with Fugu Ultra/SKILL.md) | This skill enables you to effectively orchestrate multiple AI models |
 | [AI Model Training with Task Fidelity Scaling](./skills/AI Model Training with Task Fidelity Scaling/SKILL.md) | A skill for training AI models using high-quality tasks that adhere to |
@@ -162,7 +163,12 @@ npx skills find --owner TDH-Labs
 | [Thermonuclear Code Quality Review](./skills/Thermonuclear Code Quality Review/SKILL.md) | A strict, ambitious code review skill focused on structural improvements, |
 | [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to integrate vector databases into generative AI systems for |
 | [ai-agent-development-k](./skills/ai-agent-development-k/SKILL.md) | A comprehensive skill for developing AI agents, focusing on observability, |
+| [ai-reputation-management-tools-which-are-the-best](./skills/ai-reputation-management-tools-which-are-the-best/SKILL.md) | Automated AI-powered review reputation management system |
 | [ai_agent_management](./skills/ai_agent_management/SKILL.md) | Comprehensive skill for managing AI agents using control planes, observability, |
+| [claude-is-running-my-entire-property-management-bu](./skills/claude-is-running-my-entire-property-management-bu/SKILL.md) | The transcript outlines a comprehensive workflow for automating property |
+| [how-to-create-a-devsecops-ci-cd-pipeline](./skills/how-to-create-a-devsecops-ci-cd-pipeline/SKILL.md) | Implementing DevSecOps practices in a CI/CD pipeline to enhance security |
+| [make-30k-month-with-ai-content-repurposing-crazy-s](./skills/make-30k-month-with-ai-content-repurposing-crazy-s/SKILL.md) | AI Content Repurposing Service |
+| [maximize-roi-ai-receptionists-and-operations-strat](./skills/maximize-roi-ai-receptionists-and-operations-strat/SKILL.md) | Implementing AI receptionists and voice assistants in multi-location |
 | [tying_a_bowline_knot](./skills/tying_a_bowline_knot/SKILL.md) | A comprehensive skill for tying a bowline knot, a secure loop knot commonly |
 
 ## Supported Agents

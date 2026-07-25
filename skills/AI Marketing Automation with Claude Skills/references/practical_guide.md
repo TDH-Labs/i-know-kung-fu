@@ -1,0 +1,8 @@
+## Practical Guide
+To effectively use Claude Skills for marketing automation, follow these steps:
+1. **Set Up Claude Skills**: Download and install the necessary skills from the provided link. Ensure you have the required connectors like Apify and Firecrawl for research tasks.
+2. **Customize Voice Skill**: Use the Voice Profile Builder Skill to create a voice guide tailored to your tone. Provide ample data, including email replies, social media content, and audio transcriptions, to train the skill effectively.
+3. **Create Newsletters**: Utilize the Newsletter Skill to generate newsletters based on your unique insights. Use a values and beliefs document to inspire content and follow a human-in-the-loop process to guide the creation.
+4. **Automate Designs**: Use the Instant UI Skill and Carousel Builder Skill to create presentations and social media carousels. Keep design skills specific to one use case for better results and ensure you have example images in the reference file for consistent style.
+5. **Repurpose Videos**: Employ the Video Repurposing Skill to cut long-form videos into short clips. Use the code tab to run the skill and install necessary packages like FFmpeg, Whisper, and Remotion.
+6. **Conduct Research**: Run the Market Intelligence Report and Customer Intelligence Report Skills to gather insights. Schedule these tasks to run automatically and customize the sources you want to track.
