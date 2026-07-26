@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (152 total)
+## Available Skills (155 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -40,6 +40,7 @@ npx skills find --owner TDH-Labs
 | [AI Integration and Optimization](./skills/AI Integration and Optimization/SKILL.md) | A comprehensive skill for integrating and optimizing AI agents using |
 | [AI Knowledge Base Management](./skills/AI Knowledge Base Management/SKILL.md) | Learn how to create, manage, and utilize AI knowledge bases for search, |
 | [AI Marketing Automation with Claude Skills](./skills/AI Marketing Automation with Claude Skills/SKILL.md) | Automate marketing tasks using Claude Skills for copywriting, design, |
+| [AI Model Comparison for Image Generation](./skills/AI Model Comparison for Image Generation/SKILL.md) | This skill enables you to compare different AI image generation models |
 | [AI Model Customization](./skills/AI Model Customization/SKILL.md) | A comprehensive skill for customizing AI models using techniques like |
 | [AI Model Orchestration with Fugu Ultra](./skills/AI Model Orchestration with Fugu Ultra/SKILL.md) | This skill enables you to effectively orchestrate multiple AI models |
 | [AI Model Training with Task Fidelity Scaling](./skills/AI Model Training with Task Fidelity Scaling/SKILL.md) | A skill for training AI models using high-quality tasks that adhere to |
@@ -129,6 +130,7 @@ npx skills find --owner TDH-Labs
 | [Hermes Agent Setup and Management](./skills/Hermes Agent Setup and Management/SKILL.md) | A comprehensive skill for setting up and managing Hermes Agent, an open-source |
 | [Hermes Agent Setup and Usage](./skills/Hermes Agent Setup and Usage/SKILL.md) | A comprehensive guide to setting up and using the Hermes AI Agent locally |
 | [Implementing Advanced Voice Interaction Models](./skills/Implementing Advanced Voice Interaction Models/SKILL.md) | This skill enables you to implement and optimize advanced voice interaction |
+| [Implementing Evals-Driven Development for a Mental Health AI Coach](./skills/Implementing Evals-Driven Development for a Mental Health AI Coach/SKILL.md) | This skill teaches you how to build and evaluate a mental health AI coach |
 | [Implementing Recursive Language Models (RLM) for Large Codebases](./skills/Implementing Recursive Language Models (RLM) for Large Codebases/SKILL.md) | This skill teaches you how to implement Recursive Language Models (RLM) |
 | [Implementing a Simple and Effective Productivity System](./skills/Implementing a Simple and Effective Productivity System/SKILL.md) | This skill teaches you how to design and implement a productivity system |
 | [Implementing an AI Agent Operating System](./skills/Implementing an AI Agent Operating System/SKILL.md) | This skill outlines the steps to design and implement an operating system |
@@ -149,6 +151,7 @@ npx skills find --owner TDH-Labs
 | [Multimodal AI Interaction with Gemini 3.5 Flash](./skills/Multimodal AI Interaction with Gemini 3.5 Flash/SKILL.md) | Master the use of Gemini 3.5 Flash for multimodal AI tasks, including |
 | [Multiplayer AI Collaboration with Pods](./skills/Multiplayer AI Collaboration with Pods/SKILL.md) | Implement flocking algorithm principles (local separation, distant attraction, |
 | [Optimizing AI Agents to Reduce Hallucinations and Improve Efficiency](./skills/Optimizing AI Agents to Reduce Hallucinations and Improve Efficiency/SKILL.md) | 'This skill teaches AI agents how to optimize their performance by reducing |
+| [Optimizing Tiny AI Models for Edge and Robotics Applications](./skills/Optimizing Tiny AI Models for Edge and Robotics Applications/SKILL.md) | This skill provides a comprehensive guide to optimizing and deploying |
 | [Processing Unstructured Physical Data with AI Agents](./skills/Processing Unstructured Physical Data with AI Agents/SKILL.md) | This skill enables AI agents to efficiently process and analyze unstructured |
 | [Production Evaluation for Agentic AI Systems](./skills/Production Evaluation for Agentic AI Systems/SKILL.md) | A comprehensive skill for evaluating agentic AI systems in production |
 | [Production-Grade RAG System Implementation](./skills/Production-Grade RAG System Implementation/SKILL.md) | A comprehensive skill for implementing and maintaining Retrieval-Augmented |
