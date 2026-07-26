@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (155 total)
+## Available Skills (156 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -35,6 +35,7 @@ npx skills find --owner TDH-Labs
 | [AI Agent Workflow Automation with Google Gemini](./skills/AI Agent Workflow Automation with Google Gemini/SKILL.md) | Implement autonomous AI agents using Google Gemini's Spark feature to |
 | [AI Agent Workflow Execution](./skills/AI Agent Workflow Execution/SKILL.md) | A comprehensive skill for AI agents to perform complex tasks by perceiving, |
 | [AI Agent Workflow Integration](./skills/AI Agent Workflow Integration/SKILL.md) | A comprehensive skill for integrating AI agents into development workflows |
+| [AI Automation Management](./skills/AI Automation Management/SKILL.md) | Master the skill of managing AI agents like Claude Code to automate tasks, |
 | [AI Coding Workflow with Matt Pocock's Skills](./skills/AI Coding Workflow with Matt Pocock's Skills/SKILL.md) | A comprehensive guide to setting up and using Matt Pocock's AI coding |
 | [AI Collaboration Tools Integration](./skills/AI Collaboration Tools Integration/SKILL.md) | This skill enables an AI agent to effectively integrate and utilize AI |
 | [AI Integration and Optimization](./skills/AI Integration and Optimization/SKILL.md) | A comprehensive skill for integrating and optimizing AI agents using |
