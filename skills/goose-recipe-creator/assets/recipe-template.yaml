@@ -1,0 +1,42 @@
+# Goose recipe template — copy and edit.
+# Validate before installing:  goose recipe validate <this-file>
+version: 1.0.0
+title: Human-Readable Title
+description: One sentence — what this recipe does and when to use it.
+
+instructions: |
+  You are <role>. Your goal: <the done-state a human would accept>.
+
+  Phase 1 — <name>
+  1. <Action; name the tool explicitly, e.g. "use the shell tool to run …">
+  2. <Action>
+
+  Phase 2 — <name>
+  3. <Action>
+
+  Guardrails:
+  - Never <forbidden action>.
+  - STOP and ask the user if <condition>.
+
+# Initial user message (optional but recommended).
+# NOTE: every double-curly-brace placeholder in this file — even inside
+# comments — must match a defined parameter, or validation fails.
+prompt: |
+  Run this workflow for {{ target }}.
+
+parameters:
+  - key: target
+    input_type: string
+    requirement: required
+    description: What to process.
+
+activities:
+  - "Starting {{ target }}…"
+
+# Enable only what the workflow actually uses:
+# extensions:
+#   - type: builtin
+#     name: developer
+
+# settings:
+#   temperature: 0.3
