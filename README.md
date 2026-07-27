@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (158 total)
+## Available Skills (159 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -90,6 +90,7 @@ npx skills find --owner TDH-Labs
 | [Automating Tasks with OpenClaw](./skills/Automating Tasks with OpenClaw/SKILL.md) | This skill enables you to automate real-world tasks using OpenClaw, such |
 | [Autonomous Scientific Research Agent](./skills/Autonomous Scientific Research Agent/SKILL.md) | A skill for AI agents to autonomously conduct scientific research tasks, |
 | [Build Applications with Claude Code](./skills/Build Applications with Claude Code/SKILL.md) | Learn how to configure and use Claude Code for free to build modular, |
+| [Build and Manage an AI Second Brain](./skills/Build and Manage an AI Second Brain/SKILL.md) | Learn how to create and utilize an AI-powered second brain to centralize, |
 | [Building AI Agents with Claude Code](./skills/Building AI Agents with Claude Code/SKILL.md) | A comprehensive skill for creating and managing AI agents using Claude |
 | [Building AI Agents with Design Systems and Python](./skills/Building AI Agents with Design Systems and Python/SKILL.md) | A comprehensive skill for building AI agents that leverage design systems, |
 | [Building Live Artifacts with Claude](./skills/Building Live Artifacts with Claude/SKILL.md) | This skill enables you to create personalized dashboards with live data |
