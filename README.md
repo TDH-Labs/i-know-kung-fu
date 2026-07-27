@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (156 total)
+## Available Skills (158 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -163,6 +163,7 @@ npx skills find --owner TDH-Labs
 | [Rebuild Websites Using AI Web App Builders](./skills/Rebuild Websites Using AI Web App Builders/SKILL.md) | Learn how to use AI web app builders like Remy from Mind Studio to rebuild |
 | [Reliable AI Agent Control Flow](./skills/Reliable AI Agent Control Flow/SKILL.md) | Design and implement a reliable control flow for AI agents by leveraging |
 | [Sales Automation with AI Second Brain](./skills/Sales Automation with AI Second Brain/SKILL.md) | Automate sales processes using an AI-powered second brain system, integrating |
+| [Solve Contamination-Resistant Long-Horizon Coding Tasks](./skills/Solve Contamination-Resistant Long-Horizon Coding Tasks/SKILL.md) | This skill enables an AI agent to effectively approach and solve complex, |
 | [Structured Specification Prompting for Autonomous AI Agents](./skills/Structured Specification Prompting for Autonomous AI Agents/SKILL.md) | Learn how to create structured specifications that enable AI agents to |
 | [Thermonuclear Code Quality Review](./skills/Thermonuclear Code Quality Review/SKILL.md) | A strict, ambitious code review skill focused on structural improvements, |
 | [Vector Database Integration for Generative AI Systems](./skills/Vector Database Integration for Generative AI Systems/SKILL.md) | Learn how to integrate vector databases into generative AI systems for |
@@ -170,6 +171,7 @@ npx skills find --owner TDH-Labs
 | [ai-reputation-management-tools-which-are-the-best](./skills/ai-reputation-management-tools-which-are-the-best/SKILL.md) | Automated AI-powered review reputation management system |
 | [ai_agent_management](./skills/ai_agent_management/SKILL.md) | Comprehensive skill for managing AI agents using control planes, observability, |
 | [claude-is-running-my-entire-property-management-bu](./skills/claude-is-running-my-entire-property-management-bu/SKILL.md) | The transcript outlines a comprehensive workflow for automating property |
+| [goose-recipe-creator](./skills/goose-recipe-creator/SKILL.md) | Create, validate, and install Goose recipes — reusable YAML workflows (instructions, parameters, extensions) run via `goose run --recipe` or a deeplink. Use when the user wants to author a new recipe, turn a repeated prompt/workflow/SOP into a recipe, or fix an existing recipe file. |
 | [how-to-create-a-devsecops-ci-cd-pipeline](./skills/how-to-create-a-devsecops-ci-cd-pipeline/SKILL.md) | Implementing DevSecOps practices in a CI/CD pipeline to enhance security |
 | [make-30k-month-with-ai-content-repurposing-crazy-s](./skills/make-30k-month-with-ai-content-repurposing-crazy-s/SKILL.md) | AI Content Repurposing Service |
 | [maximize-roi-ai-receptionists-and-operations-strat](./skills/maximize-roi-ai-receptionists-and-operations-strat/SKILL.md) | Implementing AI receptionists and voice assistants in multi-location |
