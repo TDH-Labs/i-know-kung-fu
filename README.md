@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (161 total)
+## Available Skills (162 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -177,6 +177,7 @@ npx skills find --owner TDH-Labs
 | [goose-recipe-creator](./skills/goose-recipe-creator/SKILL.md) | Create, validate, and install Goose recipes — reusable YAML workflows (instructions, parameters, extensions) run via `goose run --recipe` or a deeplink. Use when the user wants to author a new recipe, turn a repeated prompt/workflow/SOP into a recipe, or fix an existing recipe file. |
 | [how-to-create-a-devsecops-ci-cd-pipeline](./skills/how-to-create-a-devsecops-ci-cd-pipeline/SKILL.md) | Implementing DevSecOps practices in a CI/CD pipeline to enhance security |
 | [make-30k-month-with-ai-content-repurposing-crazy-s](./skills/make-30k-month-with-ai-content-repurposing-crazy-s/SKILL.md) | AI Content Repurposing Service |
+| [marketing-agents-are-too-good-now](./skills/marketing-agents-are-too-good-now/SKILL.md) | The transcript outlines a comprehensive method for setting up and deploying |
 | [maximize-roi-ai-receptionists-and-operations-strat](./skills/maximize-roi-ai-receptionists-and-operations-strat/SKILL.md) | Implementing AI receptionists and voice assistants in multi-location |
 | [tying_a_bowline_knot](./skills/tying_a_bowline_knot/SKILL.md) | A comprehensive skill for tying a bowline knot, a secure loop knot commonly |
 
