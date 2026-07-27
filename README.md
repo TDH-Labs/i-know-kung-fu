@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (160 total)
+## Available Skills (161 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -99,6 +99,7 @@ npx skills find --owner TDH-Labs
 | [Building a Finance Dashboard with AI Agents](./skills/Building a Finance Dashboard with AI Agents/SKILL.md) | Learn how to create a finance dashboard that tracks market activity, |
 | [Building and Managing Context Layers for AI Agents](./skills/Building and Managing Context Layers for AI Agents/SKILL.md) | This skill teaches AI agents how to build, manage, and utilize context |
 | [Business Automation with Loop Engineering](./skills/Business Automation with Loop Engineering/SKILL.md) | A comprehensive guide to implementing loop engineering for automating |
+| [Chinese AI Model Integration](./skills/Chinese AI Model Integration/SKILL.md) | A comprehensive skill for integrating Chinese AI models into workflows, |
 | [Claude AI Interaction Optimization](./skills/Claude AI Interaction Optimization/SKILL.md) | Optimize interactions with Claude AI by leveraging its advanced features |
 | [Claude AI Tool Utilization](./skills/Claude AI Tool Utilization/SKILL.md) | A comprehensive skill for utilizing Claude AI across various use cases |
 | [Claude Co-Work Skill Development](./skills/Claude Co-Work Skill Development/SKILL.md) | A comprehensive skill for developing, testing, and optimizing AI agent |
