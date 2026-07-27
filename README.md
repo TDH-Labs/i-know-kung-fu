@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (159 total)
+## Available Skills (160 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -131,6 +131,7 @@ npx skills find --owner TDH-Labs
 | [Handoff Skill](./skills/Handoff Skill/SKILL.md) | Compact the current conversation into a handoff document for another |
 | [Hermes Agent Setup and Management](./skills/Hermes Agent Setup and Management/SKILL.md) | A comprehensive skill for setting up and managing Hermes Agent, an open-source |
 | [Hermes Agent Setup and Usage](./skills/Hermes Agent Setup and Usage/SKILL.md) | A comprehensive guide to setting up and using the Hermes AI Agent locally |
+| [Implementing AI Safety Guardrails](./skills/Implementing AI Safety Guardrails/SKILL.md) | A comprehensive skill for implementing guardrails to protect generative |
 | [Implementing Advanced Voice Interaction Models](./skills/Implementing Advanced Voice Interaction Models/SKILL.md) | This skill enables you to implement and optimize advanced voice interaction |
 | [Implementing Evals-Driven Development for a Mental Health AI Coach](./skills/Implementing Evals-Driven Development for a Mental Health AI Coach/SKILL.md) | This skill teaches you how to build and evaluate a mental health AI coach |
 | [Implementing Recursive Language Models (RLM) for Large Codebases](./skills/Implementing Recursive Language Models (RLM) for Large Codebases/SKILL.md) | This skill teaches you how to implement Recursive Language Models (RLM) |
