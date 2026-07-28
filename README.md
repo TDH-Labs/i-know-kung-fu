@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (162 total)
+## Available Skills (163 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -99,6 +99,7 @@ npx skills find --owner TDH-Labs
 | [Building a Finance Dashboard with AI Agents](./skills/Building a Finance Dashboard with AI Agents/SKILL.md) | Learn how to create a finance dashboard that tracks market activity, |
 | [Building and Managing Context Layers for AI Agents](./skills/Building and Managing Context Layers for AI Agents/SKILL.md) | This skill teaches AI agents how to build, manage, and utilize context |
 | [Business Automation with Loop Engineering](./skills/Business Automation with Loop Engineering/SKILL.md) | A comprehensive guide to implementing loop engineering for automating |
+| [ChatGPT Automation Workflow](./skills/ChatGPT Automation Workflow/SKILL.md) | Automate tasks using ChatGPT by integrating with local files, plugins, |
 | [Chinese AI Model Integration](./skills/Chinese AI Model Integration/SKILL.md) | A comprehensive skill for integrating Chinese AI models into workflows, |
 | [Claude AI Interaction Optimization](./skills/Claude AI Interaction Optimization/SKILL.md) | Optimize interactions with Claude AI by leveraging its advanced features |
 | [Claude AI Tool Utilization](./skills/Claude AI Tool Utilization/SKILL.md) | A comprehensive skill for utilizing Claude AI across various use cases |
@@ -177,7 +178,7 @@ npx skills find --owner TDH-Labs
 | [goose-recipe-creator](./skills/goose-recipe-creator/SKILL.md) | Create, validate, and install Goose recipes — reusable YAML workflows (instructions, parameters, extensions) run via `goose run --recipe` or a deeplink. Use when the user wants to author a new recipe, turn a repeated prompt/workflow/SOP into a recipe, or fix an existing recipe file. |
 | [how-to-create-a-devsecops-ci-cd-pipeline](./skills/how-to-create-a-devsecops-ci-cd-pipeline/SKILL.md) | Implementing DevSecOps practices in a CI/CD pipeline to enhance security |
 | [make-30k-month-with-ai-content-repurposing-crazy-s](./skills/make-30k-month-with-ai-content-repurposing-crazy-s/SKILL.md) | AI Content Repurposing Service |
-| [marketing-agents-are-too-good-now](./skills/marketing-agents-are-too-good-now/SKILL.md) | The transcript outlines a comprehensive method for setting up and deploying |
+| [marketing-agents-are-too-good-now](./skills/marketing-agents-are-too-good-now/SKILL.md) | Build and deploy AI marketing agents that research, create, publish, |
 | [maximize-roi-ai-receptionists-and-operations-strat](./skills/maximize-roi-ai-receptionists-and-operations-strat/SKILL.md) | Implementing AI receptionists and voice assistants in multi-location |
 | [tying_a_bowline_knot](./skills/tying_a_bowline_knot/SKILL.md) | A comprehensive skill for tying a bowline knot, a secure loop knot commonly |
 
