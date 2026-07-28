@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (165 total)
+## Available Skills (167 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -65,6 +65,7 @@ npx skills find --owner TDH-Labs
 | [AI-Driven Software Development Workflow](./skills/AI-Driven Software Development Workflow/SKILL.md) | A comprehensive skill for AI agents to assist in software development |
 | [AI-Native Workflow Automation](./skills/AI-Native Workflow Automation/SKILL.md) | A comprehensive skill for building AI-native organizations using skill |
 | [AI-Powered Document Creation and Management with Adobe Acrobat](./skills/AI-Powered Document Creation and Management with Adobe Acrobat/SKILL.md) | This skill enables you to leverage Adobe Acrobat's AI capabilities to |
+| [AI-Powered Editable Diagram Generation](./skills/AI-Powered Editable Diagram Generation/SKILL.md) | Enables the AI agent to rapidly generate fully editable diagrams, charts, |
 | [AI-Powered Meeting Management](./skills/AI-Powered Meeting Management/SKILL.md) | Skill for managing meetings end-to-end using AI assistance, including |
 | [AI-Powered Productivity Enhancement](./skills/AI-Powered Productivity Enhancement/SKILL.md) | This skill enables you to leverage AI to automate and optimize common |
 | [AI-Powered Programmatic SEO with Claude](./skills/AI-Powered Programmatic SEO with Claude/SKILL.md) | A skill for generating SEO-optimized content at scale using Claude's |
@@ -167,6 +168,7 @@ npx skills find --owner TDH-Labs
 | [RAG vs Fine-Tuning Decision Framework](./skills/RAG vs Fine-Tuning Decision Framework/SKILL.md) | A comprehensive skill for determining when to use Retrieval-Augmented |
 | [Rebuild Websites Using AI Web App Builders](./skills/Rebuild Websites Using AI Web App Builders/SKILL.md) | Learn how to use AI web app builders like Remy from Mind Studio to rebuild |
 | [Reliable AI Agent Control Flow](./skills/Reliable AI Agent Control Flow/SKILL.md) | Design and implement a reliable control flow for AI agents by leveraging |
+| [Run Local LLMs with llama.cpp or vLLM](./skills/Run Local LLMs with llama.cpp or vLLM/SKILL.md) | This skill enables an AI agent to understand, select, and deploy local |
 | [Sales Automation with AI Second Brain](./skills/Sales Automation with AI Second Brain/SKILL.md) | Automate sales processes using an AI-powered second brain system, integrating |
 | [Solve Contamination-Resistant Long-Horizon Coding Tasks](./skills/Solve Contamination-Resistant Long-Horizon Coding Tasks/SKILL.md) | This skill enables an AI agent to effectively approach and solve complex, |
 | [Structured Specification Prompting for Autonomous AI Agents](./skills/Structured Specification Prompting for Autonomous AI Agents/SKILL.md) | Learn how to create structured specifications that enable AI agents to |
