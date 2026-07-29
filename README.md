@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (167 total)
+## Available Skills (169 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -115,6 +115,7 @@ npx skills find --owner TDH-Labs
 | [Claude Routine Automation](./skills/Claude Routine Automation/SKILL.md) | Automate recurring tasks and event-triggered workflows using Claude's |
 | [Code Comprehension with AI](./skills/Code Comprehension with AI/SKILL.md) | A systematic approach to using AI for understanding complex codebases, |
 | [Codex Life and Business Automation](./skills/Codex Life and Business Automation/SKILL.md) | A comprehensive skill for leveraging Codex with GPT 5.6 to automate personal |
+| [Collaborative Agent Productivity with Buzz](./skills/Collaborative Agent Productivity with Buzz/SKILL.md) | A skill enabling AI agents to enhance team collaboration and productivity |
 | [Create AI-Animated African Folktales](./skills/Create AI-Animated African Folktales/SKILL.md) | A step-by-step guide to creating AI-animated African folktales, from |
 | [Decision-Aware AI Agent Framework](./skills/Decision-Aware AI Agent Framework/SKILL.md) | A comprehensive framework for building decision-aware AI agents using |
 | [Deploying AI Agents on the Open Web Using Nanda Infrastructure](./skills/Deploying AI Agents on the Open Web Using Nanda Infrastructure/SKILL.md) | Learn how to deploy and manage AI agents on the open web using Nanda's |
@@ -127,6 +128,7 @@ npx skills find --owner TDH-Labs
 | [Enterprise-Level Code Generation and Evaluation with LLMs](./skills/Enterprise-Level Code Generation and Evaluation with LLMs/SKILL.md) | A skill for generating enterprise-ready code using LLMs, evaluating its |
 | [EnterpriseAgentImprovementSkill](./skills/EnterpriseAgentImprovementSkill/SKILL.md) | A skill to improve enterprise AI agents by addressing ambiguity, staleness, |
 | [EnterpriseDocumentProcessingWithAgenticRAG](./skills/EnterpriseDocumentProcessingWithAgenticRAG/SKILL.md) | A skill for processing and querying enterprise documents using Agentic |
+| [Forward Deployed Engineering with AI Agents](./skills/Forward Deployed Engineering with AI Agents/SKILL.md) | A comprehensive skill for deploying AI agents to understand, re-engineer, |
 | [Froglet Protocol Integration for AI Agents](./skills/Froglet Protocol Integration for AI Agents/SKILL.md) | This skill enables AI agents to integrate with the Froglet protocol, |
 | [GLM_5.2_Integration_and_Usage](./skills/GLM_5.2_Integration_and_Usage/SKILL.md) | Learn how to integrate and effectively use GLM 5.2, an open-source local |
 | [Generative UI Design for AI Agents](./skills/Generative UI Design for AI Agents/SKILL.md) | A skill for designing and implementing Generative UI layers that bridge |
