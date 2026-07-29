@@ -14,7 +14,7 @@ npx skills add TDH-Labs/i-know-kung-fu@<skill-name>
 npx skills find --owner TDH-Labs
 ```
 
-## Available Skills (169 total)
+## Available Skills (170 total)
 
 | Skill | Description |
 |-------|-------------|
@@ -159,6 +159,7 @@ npx skills find --owner TDH-Labs
 | [Multi-Agent Verification System Design](./skills/Multi-Agent Verification System Design/SKILL.md) | Design and implement a multi-agent AI system for high-stakes decision |
 | [Multimodal AI Interaction with Gemini 3.5 Flash](./skills/Multimodal AI Interaction with Gemini 3.5 Flash/SKILL.md) | Master the use of Gemini 3.5 Flash for multimodal AI tasks, including |
 | [Multiplayer AI Collaboration with Pods](./skills/Multiplayer AI Collaboration with Pods/SKILL.md) | Implement flocking algorithm principles (local separation, distant attraction, |
+| [ObsidianNoteManagement](./skills/ObsidianNoteManagement/SKILL.md) | A comprehensive skill for managing notes in Obsidian, including installation, |
 | [Optimizing AI Agents to Reduce Hallucinations and Improve Efficiency](./skills/Optimizing AI Agents to Reduce Hallucinations and Improve Efficiency/SKILL.md) | 'This skill teaches AI agents how to optimize their performance by reducing |
 | [Optimizing Tiny AI Models for Edge and Robotics Applications](./skills/Optimizing Tiny AI Models for Edge and Robotics Applications/SKILL.md) | This skill provides a comprehensive guide to optimizing and deploying |
 | [Processing Unstructured Physical Data with AI Agents](./skills/Processing Unstructured Physical Data with AI Agents/SKILL.md) | This skill enables AI agents to efficiently process and analyze unstructured |
